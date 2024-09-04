@@ -1,5 +1,5 @@
   #page_selection_eventDate .product_right_img {
-  background-color: green;
+  background-color: pink;
   }
 
   #page_selection_eventDate .product_title_container {
@@ -48,6 +48,7 @@ display:none;
 
 #page_selection_eventDate .group_sub_title  {
 margin:0;
+padding:20px 45px 20px 45px; 
 background-color: #f6f6f6;
 }
 
