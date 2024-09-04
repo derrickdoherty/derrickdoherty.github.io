@@ -40,8 +40,13 @@ Color: #ffffff;
 color : #BF0091;
 }
 
-
+/* promotional code 
 #page_selection_eventDate #secondary_content_special_offer {
 display:none;
-  /* promotional code */
+}*/
+
+
+#page_selection_eventDate .group_sub_title  {
+margin:0;
+background-color: #f6f6f6;
 }
