@@ -1,7 +1,17 @@
 p.test {
   color: #FF0000;
 }
- 
-#page_selection_eventDate .product_right_img {
-  background-color: blue;
+
+#page_selection_eventDate  {
+  .product_right_img {
+  background-color: red;
+  }
+  .product_title_container {
+    font-family: rwc;
+  }
+  #page {
+    background-color: #F6F6F6;
+  }
+  
 }
+
