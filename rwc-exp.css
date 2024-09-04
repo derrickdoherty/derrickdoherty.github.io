@@ -1,5 +1,5 @@
   #page_selection_eventDate .product_right_img {
-  background-color: pink;
+  background-color: brown;
   }
 
   #page_selection_eventDate .product_title_container {
@@ -37,5 +37,11 @@ Color: #ffffff;
 }
 
 #page_selection_eventDate a:link {
-color : #BF0091
+color : #BF0091;
+}
+
+
+#page_selection_eventDate #secondary_content_special_offer {
+display:none;
+  /* promotional code */
 }
