@@ -1,17 +1,32 @@
-p.test {
-  color: #FF0000;
-}
-
-
   #page_selection_eventDate .product_right_img {
   background-color: red;
   }
+
   #page_selection_eventDate .product_title_container {
     font-family: rwc;
   }
+
   #page_selection_eventDate #page {
     background-color: #F6F6F6;
   }
   
 
+#page_selection_eventDate .secondary_content{
+border-radius: 12px;
+border:none;
+overflow: hidden;
+}
+
+#page_selection_eventDate #secondary_content_cart{
+Border:none;
+}
+
+#page_selection_eventDate .filters{
+background-color : #ffffff
+}
+
+#page_selection_eventDate .main_content > .content_title > .title {
+background: #f6f6f6;
+border-bottom: none;
+}
 
