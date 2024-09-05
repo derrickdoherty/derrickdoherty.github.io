@@ -1,4 +1,20 @@
-  #page_selection_eventDate .product_right_img {
+        @font-face {
+            font-family: "RWC";
+            src: url("https://s3.eu-central-1.amazonaws.com/content-secutix-com/SODEXO/fonts/RWC-Bold.ttf")
+                format("truetype");
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "RWC";
+            src: url("https://content.secutix.com/SODEXO/fonts/RWC-Regular.ttf")
+                format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+#page_selection_eventDate .product_right_img {
   background-color: pink;
   }
 
