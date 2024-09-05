@@ -44,12 +44,6 @@ Color: #ffffff;
 color : #BF0091;
 }
 
-/* promotional code 
-#page_selection_eventDate #secondary_content_special_offer {
-display:none;
-}*/
-
-
 #page_selection_eventDate .group_sub_title  {
 margin:0;
 padding:20px 45px 20px 45px; 
@@ -60,6 +54,15 @@ background-color: #f6f6f6;
 #page_selection_eventDate #performance_chooser {
   border:none;
 }
+
+#page_selection_eventDate .product_right_img .title {
+text-align: center;
+}
+
+#page_selection_eventDate .product_right_img .product_image_container .product_image {
+Display : none;}
+
+
 
 #page_selection_eventSeat #book {
   background: #BF0091;
