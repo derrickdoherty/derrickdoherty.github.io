@@ -83,6 +83,17 @@ Display : none;}
   font-family: rwc;      
 }
 
+#page_selection_eventDate #performanceSelectionInstruction {
+  background-color: #f6f6f6;
+}
+
+#page_selection_eventDate .performances_monthly_grouped {
+border:none;
+}
+
+#page_selection_eventDate #2025-09 {
+border-top: 1px solid #e6e6e6;
+}
 
 #page_selection_eventSeat #book {
   background: #BF0091;
