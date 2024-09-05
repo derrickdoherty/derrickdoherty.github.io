@@ -22,12 +22,16 @@ Border:none;
 }
 
 #page_selection_eventDate .filters{
-background-color : #ffffff
+background-color : #ffffff;
+border-bottom:none;
+border-radius: 12px;
+  
 }
 
 #page_selection_eventDate .main_content > .content_title > .title {
 background: #f6f6f6;
 border-bottom: none;
+  
 }
 
 
@@ -50,6 +54,11 @@ display:none;
 margin:0;
 padding:20px 45px 20px 45px; 
 background-color: #f6f6f6;
+}
+
+
+#page_selection_eventDate #performance_chooser {
+  border:none;
 }
 
 #page_selection_eventSeat #book {
