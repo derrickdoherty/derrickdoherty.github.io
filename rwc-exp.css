@@ -15,7 +15,7 @@
         }
 
 #page_selection_eventDate .product_right_img {
-  background-color: pink;
+  background-color: red;
   }
 
   #page_selection_eventDate .product_title_container {
@@ -47,7 +47,7 @@ border-radius: 12px;
 #page_selection_eventDate .main_content > .content_title > .title {
 background: #f6f6f6;
 border-bottom: none;
-  
+font-family: rwc;      
 }
 
 
@@ -79,7 +79,12 @@ text-align: center;
 Display : none;}
 
 
+#page_selection_eventDate .group_sub_title .title4 {
+  font-family: rwc;      
+}
+
 
 #page_selection_eventSeat #book {
   background: #BF0091;
 }
+
