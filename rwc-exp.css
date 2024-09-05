@@ -14,37 +14,37 @@
             font-style: normal;
         }
 
-#page_selection_eventDate .product_right_img {
+ .product_right_img {
   background-color: red;
   }
 
-  #page_selection_eventDate .product_title_container {
+   .product_title_container {
     font-family: rwc;
   }
 
-  #page_selection_eventDate #page {
+   #page {
     background-color: #F6F6F6;
   }
   
 
-#page_selection_eventDate .secondary_content{
+ .secondary_content{
 border-radius: 12px;
 border:none;
 overflow: hidden;
 }
 
-#page_selection_eventDate #secondary_content_cart{
+ #secondary_content_cart{
 Border:none;
 }
 
-#page_selection_eventDate .filters{
+ .filters{
 background-color : #ffffff;
 border-bottom:none;
 border-radius: 12px;
   
 }
 
-#page_selection_eventDate .main_content > .content_title > .title {
+ .main_content > .content_title > .title {
 background: #f6f6f6;
 border-bottom: none;
 font-family: rwc;      
@@ -52,55 +52,55 @@ font-family: rwc;
 
 
 
-#page_selection_eventDate #secondary_content_general_info li {
+ #secondary_content_general_info li {
 Color: #ffffff;
 }
 
-#page_selection_eventDate a:link {
+ a:link {
 color : #BF0091;
 }
 
-#page_selection_eventDate .group_sub_title  {
+ .group_sub_title  {
 margin:0;
 padding:20px 45px 20px 45px; 
 background-color: #f6f6f6;
 }
 
 
-#page_selection_eventDate #performance_chooser {
+ #performance_chooser {
   border:none;
 }
 
-#page_selection_eventDate .product_right_img .title {
+ .product_right_img .title {
 text-align: center;
 }
 
-#page_selection_eventDate .product_right_img .product_image_container {
+ .product_right_img .product_image_container {
 Display : none;}
 
 
-#page_selection_eventDate .group_sub_title.title4 {
+ .group_sub_title.title4 {
   font-family: rwc;      
 }
 
-#page_selection_eventDate #performanceSelectionInstruction {
+ #performanceSelectionInstruction {
   background-color: #f6f6f6;
 }
 
-#page_selection_eventDate .performances_monthly_grouped {
+ .performances_monthly_grouped {
 border:none;
 }
 
-#page_selection_eventDate #2025-09 {
+ #2025-09 {
 border-top: 1px solid #e6e6e6;
 }
 
-#page_selection_eventDate .semantic-no-styling-no-display.date {
+ .semantic-no-styling-no-display.date {
 text-align: center;
   display: block;
 }
 
-#page_selection_eventDate .product_right_img {
+ #page_selection_eventDate .product_right_img {
   background-color: #F6F6F6;
   border: none;
   position: relative;
@@ -110,7 +110,7 @@ text-align: center;
 }
 
 
-#page_selection_eventDate .product_description_header {
+ .product_description_header {
   background-color: #F6F6F6;
 }
 
@@ -127,4 +127,3 @@ text-align: center;
 #page_selection_eventSeat #book {
   background: #BF0091;
 }
-
