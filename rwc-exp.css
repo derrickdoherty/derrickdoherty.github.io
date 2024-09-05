@@ -15,7 +15,7 @@
         }
 
 #page_selection_eventDate .product_right_img {
-  background-color: green;
+  background-color: red;
   }
 
   #page_selection_eventDate .product_title_container {
@@ -94,6 +94,35 @@ border:none;
 #page_selection_eventDate #2025-09 {
 border-top: 1px solid #e6e6e6;
 }
+
+#page_selection_eventDate .semantic-no-styling-no-display.date {
+text-align: center;
+  display: block;
+}
+
+#page_selection_eventDate .product_right_img {
+  background-color: #F6F6F6;
+  border: none;
+  position: relative;
+  background-image: url(https://sdo-p-001.sitecorecontenthub.cloud/api/public/content/8cf5d09c82b14ef0bedd1d5fbd2ec114?v=601fa7e4);
+  background-size: cover; 
+  background-repeat: round;
+}
+
+
+#page_selection_eventDate .product_description_header {
+  background-color: #F6F6F6;
+}
+
+
+#page_selection_eventDate .product_description_header {
+  background-color: #F6F6F6;
+  background-image: url(https://sdo-q-001.sitecorecontenthub.cloud/api/public/content/756c9689ffbd43c3bc11a2b313d077eb?v=beac538f);
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+
 
 #page_selection_eventSeat #book {
   background: #BF0091;
