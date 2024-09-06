@@ -56,8 +56,8 @@ font-family: rwc;
 Color: #ffffff;
 }
 
- #page_selection_eventDate a:link {
-color : #BF0091;
+a:link {
+color : #BF0091!important;
 }
 
  .group_sub_title  {
