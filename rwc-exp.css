@@ -15,7 +15,7 @@
         }
 
  .product_right_img {
-  background-color: red;
+  background-color: green;
   }
 
    .product_title_container {
@@ -144,7 +144,10 @@ border-top: none;
 }
 
 /* BOUTON */
-#buy_order , #10228779904863, #book {
+#buy_order,
+#10228779904863,
+#addOtherProducts,
+#book {
   background-color: #BF0091!important;
   color: #ffffff!important;
 }
