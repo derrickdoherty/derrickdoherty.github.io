@@ -127,6 +127,22 @@ text-align: center;
     margin:0;
   }
 
+/* MARGIN PAIEMENT METHOD & GENERAL INFO */
+
+.secondary_content > .content_title > .title {
+  margin: 15px 0px 0px 0px;
+  border-radius: 12px 12px 0 0;
+}
+
+#close_menu_overlay + .secondary_content {
+  border-top: none;
+  margin-top: 0;
+}
+
+#secondary_content_countdown + .secondary_content {
+border-top: none;
+}
+
 
 #page_selection_eventSeat #book {
   background: #BF0091;
