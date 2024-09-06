@@ -146,7 +146,20 @@ border-top: none;
 /* BOUTON */
 #buy_order,
 #addOtherProducts,
-#book {
+#continue_button,
+#book,
+.performance_selector
+  .time_selection
+  .rs-carousel-inactive
+  .sliding_item
+  .button.selected
+  a,
+.performance_selector
+  .time_selection
+  .rs-carousel-runner
+  .sliding_item
+  .button.selected
+a{
   background-color: #BF0091!important;
   color: #ffffff!important;
 }
