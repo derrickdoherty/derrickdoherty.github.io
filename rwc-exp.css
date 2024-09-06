@@ -56,8 +56,8 @@ font-family: rwc;
 Color: #ffffff;
 }
 
-a:link {
-color : #BF0091!important;
+a:link, a:active, a:visited {
+  color: #BF0091!important;
 }
 
  .group_sub_title  {
