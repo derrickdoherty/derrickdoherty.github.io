@@ -143,6 +143,12 @@ text-align: center;
 border-top: none;
 }
 
+/* BOUTON */
+#buy_order , #10228779904863, #book {
+  background-color: #BF0091!important;
+  color: #ffffff!important;
+}
+
 
 #page_selection_eventSeat #book {
   background: #BF0091;
