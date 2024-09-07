@@ -15,7 +15,7 @@
         }
 
  .product_right_img {
-  background-color: pink;
+  background-color: green;
   }
 
    .product_title_container {
@@ -174,6 +174,7 @@ a{
 
 
 /* ACCOUNT MENU */
+
 #page_account_home #secondary_content_navigation .content_title > .title {
 background-color: #fff;
 }
@@ -210,3 +211,15 @@ color: #BF0091;
 #page_account_home .menu_experience_vouchers 
 {border: none!important;
 }
+
+/* BUTTON SUMMARY */
+
+ body.rwd #page_checkout_orderSummary .button.pay a {
+    background-color: #BF0091;
+    color: #fff !important;
+  }
+
+  body.rwd #page_checkout_orderSummary .button.pay.disabled a {
+background: silver!important;
+  border-color: #b0b0b0!important;
+  }
