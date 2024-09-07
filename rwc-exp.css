@@ -165,6 +165,48 @@ a{
 }
 
 
+
 #page_selection_eventSeat #book {
   background: #BF0091;
+}
+
+
+
+
+/* ACCOUNT MENU */
+#page_account_home #secondary_content_navigation .content_title > .title {
+background-color: #fff;
+}
+
+#page_account_home #secondary_content_navigation .content_title .title .main_title {
+color: #000000;
+font-weight: bold;
+}
+
+#page_account_home .openable.open {
+color: black !important;
+font-weight: bold;
+}
+
+#page_account_home #content #secondary_content_navigation .content_element .content .tickets_menu_logout .text {
+color: #BF0091; 
+}
+
+#page_account_home #secondary_content_navigation .content_element > .content {
+  background-color: #fff;
+}
+#page_account_home #content #secondary_content_navigation .content_element .content > ul > li:not(:first-child) > a {
+  text-transform: none;  
+}
+
+#page_account_home #content #secondary_content_navigation .content_element .content ul li.selected a {
+    background-color: #fff;  
+}
+
+#page_account_home .secondary_content > .content_title > .title {
+  margin: 0px!important;
+}
+
+#page_account_home .menu_experience_vouchers 
+{border: none!important;
 }
