@@ -223,3 +223,8 @@ color: #BF0091;
 background: silver!important;
   border-color: #b0b0b0!important;
   }
+
+body.rwd #page_account_home .button a {
+color: #fff!important;
+background-color: #bf0091;
+}
