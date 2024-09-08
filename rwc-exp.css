@@ -228,3 +228,23 @@ body.rwd #page_account_home .button a {
 color: #fff!important;
 background-color: #bf0091;
 }
+
+
+/* SECONDE PAGE */
+
+#page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .subtitle {
+  display: block;
+  font-weight: normal;
+  color: #262626;
+  text-align: center;
+  font-family: RWC;
+}
+
+#page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .round_kind {
+  display: block;
+  text-align: center;
+}
+
+#page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .round_kind::before {
+  content: none;
+}
