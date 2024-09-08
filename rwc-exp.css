@@ -248,3 +248,8 @@ background-color: #bf0091;
 #page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .round_kind::before {
   content: none;
 }
+
+#page_selection_eventSeat p.semantic-no-styling-no-display {
+display: block;
+  text-align: center;
+}
