@@ -253,3 +253,11 @@ background-color: #bf0091;
 display: block;
   text-align: center;
 }
+
+
+#page_selection_eventSeat .product_right_img {
+  background-image: url(https://sdo-p-001.sitecorecontenthub.cloud/api/public/content/8cf5d09c82b14ef0bedd1d5fbd2ec114?v=601fa7e4);
+  background-size: 100% 100%;
+  background-repeat: repeat;
+  background-position: initial;
+}
