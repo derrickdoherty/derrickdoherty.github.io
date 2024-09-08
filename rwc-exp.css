@@ -175,40 +175,40 @@ a{
 
 /* ACCOUNT MENU */
 
-#page_account_home #secondary_content_navigation .content_title > .title {
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #secondary_content_navigation .content_title > .title {
 background-color: #fff;
 }
 
-#page_account_home #secondary_content_navigation .content_title .title .main_title {
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #secondary_content_navigation .content_title .title .main_title {
 color: #000000;
 font-weight: bold;
 }
 
-#page_account_home .openable.open {
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, .openable.open {
 color: black !important;
 font-weight: bold;
 }
 
-#page_account_home #content #secondary_content_navigation .content_element .content .tickets_menu_logout .text {
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #content #secondary_content_navigation .content_element .content .tickets_menu_logout .text {
 color: #BF0091; 
 }
 
-#page_account_home #secondary_content_navigation .content_element > .content {
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #secondary_content_navigation .content_element > .content {
   background-color: #fff;
 }
-#page_account_home #content #secondary_content_navigation .content_element .content > ul > li:not(:first-child) > a {
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #content #secondary_content_navigation .content_element .content > ul > li:not(:first-child) > a {
   text-transform: none;  
 }
 
-#page_account_home #content #secondary_content_navigation .content_element .content ul li.selected a {
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #content #secondary_content_navigation .content_element .content ul li.selected a {
     background-color: #fff;  
 }
 
-#page_account_home .secondary_content > .content_title > .title {
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, .secondary_content > .content_title > .title {
   margin: 0px!important;
 }
 
-#page_account_home .menu_experience_vouchers 
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, .menu_experience_vouchers 
 {border: none!important;
 }
 
