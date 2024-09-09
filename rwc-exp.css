@@ -261,3 +261,7 @@ display: block;
   background-repeat: repeat;
   background-position: initial;
 }
+
+#page_checkout_payment .payment_method_list.payment_method_chooser.main_content_payment {
+  flex-direction:row-reverse!important;
+}
