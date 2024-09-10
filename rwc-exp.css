@@ -44,14 +44,13 @@ border-radius: 12px;
   
 }
 
- .main_content > .content_title > .title {
-background: #f6f6f6;
-border-bottom: none;
-font-family: rwc;      
+.main_content > .content_title > .title {
+  background: #f6f6f6;
+  border-bottom: none;      
 }
 
- .main_content > .content_title h2 {
-font-family: rwc;      
+.main_content > .content_title h2 {
+  font-family: rwc;
 }
 
 
@@ -103,7 +102,7 @@ text-align: center;
   display: block;
 }
 
- #page_selection_eventDate .product_right_img {
+#page_selection_eventDate .product_right_img {
   background-color: #F6F6F6;
   border: none;
   position: relative;
@@ -176,44 +175,7 @@ a{
 
 
 
-/* ACCOUNT MENU */
 
-#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #secondary_content_navigation .content_title > .title {
-background-color: #fff;
-}
-
-#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #secondary_content_navigation .content_title .title .main_title {
-color: #000000;
-font-weight: bold;
-}
-
-#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, .openable.open {
-color: black !important;
-font-weight: bold;
-}
-
-#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #content #secondary_content_navigation .content_element .content .tickets_menu_logout .text {
-color: #BF0091; 
-}
-
-#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #secondary_content_navigation .content_element > .content {
-  background-color: #fff;
-}
-#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #content #secondary_content_navigation .content_element .content > ul > li:not(:first-child) > a {
-  text-transform: none;  
-}
-
-#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #content #secondary_content_navigation .content_element .content ul li.selected a {
-    background-color: #fff;  
-}
-
-#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, .secondary_content > .content_title > .title {
-  margin: 0px!important;
-}
-
-#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, .menu_experience_vouchers 
-{border: none!important;
-}
 
 /* BUTTON SUMMARY */
 
@@ -286,4 +248,68 @@ display: block;
 
 #page_account_register #account_type_selection {
   display: none;
+}
+
+
+
+
+/** ACCOUNT PAGES  **/
+#page_account_tickets #main_content_tickets {
+  border: none;
+}
+
+#page_account_tickets #collapsiblePanel_main_content_tickets {
+  border: 1px solid #e6e6e6;
+}
+
+#page_account_tickets .product_right_img {
+  background-color: #F6F6F6;
+  border: none;
+  position: relative;
+  background-image: url(https://sdo-p-001.sitecorecontenthub.cloud/api/public/content/8cf5d09c82b14ef0bedd1d5fbd2ec114?v=601fa7e4);
+  background-size: cover; 
+  background-repeat: round;
+}
+
+#page_account_tickets .print_options {
+  display: none;
+}
+
+/* ACCOUNT MENU */
+
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #secondary_content_navigation .content_title > .title {
+background-color: #fff;
+}
+
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #secondary_content_navigation .content_title .title .main_title {
+color: #000000;
+font-weight: bold;
+}
+
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, .openable.open {
+color: black !important;
+font-weight: bold;
+}
+
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #content #secondary_content_navigation .content_element .content .tickets_menu_logout .text {
+color: #BF0091; 
+}
+
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #secondary_content_navigation .content_element > .content {
+  background-color: #fff;
+}
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #content #secondary_content_navigation .content_element .content > ul > li:not(:first-child) > a {
+  text-transform: none;  
+}
+
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #content #secondary_content_navigation .content_element .content ul li.selected a {
+    background-color: #fff;  
+}
+
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, .secondary_content > .content_title > .title {
+  margin: 0px!important;
+}
+
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, .menu_experience_vouchers 
+{border: none!important;
 }
