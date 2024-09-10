@@ -15,7 +15,7 @@
         }
 
  .product_right_img {
-  background-color: green;
+  background-color: #f6f6f6;
   }
 
    .product_title_container {
@@ -44,7 +44,7 @@ border-radius: 12px;
   
 }
 
- .main_content > .content_title > .title {
+ .main_content > .content_title > h2 {
 background: #f6f6f6;
 border-bottom: none;
 font-family: rwc;      
@@ -260,6 +260,21 @@ display: block;
   background-size: 100% 100%;
   background-repeat: repeat;
   background-position: initial;
+}
+
+#page_selection_eventSeat .product_description_header {
+  background-color: #F6F6F6;
+  background-image: url(https://sdo-q-001.sitecorecontenthub.cloud/api/public/content/756c9689ffbd43c3bc11a2b313d077eb?v=beac538f);
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+#page_selection_eventSeat #main_content_seat_selection {
+  border: none;
+}
+
+#page_selection_eventSeat #collapsiblePanel_main_content_seat_selection {
+  border: 1px solid #e6e6e6;
 }
 
 #page_checkout_payment .payment_method_list.payment_method_chooser.main_content_payment {
