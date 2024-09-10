@@ -44,12 +44,15 @@ border-radius: 12px;
   
 }
 
- .main_content > .content_title h2 {
+ .main_content > .content_title > .title {
 background: #f6f6f6;
 border-bottom: none;
 font-family: rwc;      
 }
 
+ .main_content > .content_title h2 {
+font-family: rwc;      
+}
 
 
  #secondary_content_general_info li {
