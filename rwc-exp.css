@@ -147,7 +147,6 @@ border-top: none;
 
 /* BOUTON */
 #buy_order,
-#addOtherProducts,
 #continue_button,
 #book,
 .performance_selector
@@ -164,6 +163,7 @@ border-top: none;
 a{
   background-color: #BF0091!important;
   color: #ffffff!important;
+  border-radius: 10px;
 }
 
 
@@ -248,6 +248,13 @@ display: block;
 
 #page_account_register #account_type_selection {
   display: none;
+}
+
+
+
+/** CHECKOUT PAGES **/
+#checkout_bar .symbol {
+  background-color: #BF0091;
 }
 
 
