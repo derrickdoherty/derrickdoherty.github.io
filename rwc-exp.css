@@ -161,7 +161,8 @@ border-top: none;
   .rs-carousel-runner
   .sliding_item
   .button.selected
-a{
+a,
+.button a {
   background-color: #BF0091!important;
   color: #ffffff!important;
   border-radius: 10px;
