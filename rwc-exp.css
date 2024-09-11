@@ -255,24 +255,31 @@ display: block;
 
 
 
-/** CHECKOUT PAGES **/
-#checkout_bar .symbol {
-  background-color: #BF0091;
-}
-
-
-
+/** GENERAL PAGES **/
 
 #page_cart_reservation #main_content_reservation,
+#page_checkout_orderSummary #main_content_summary_products,
+#page_cart_emptyShoppingCart #main_content_cart,
 #page_account_tickets #main_content_tickets {
   border: none;
 }
 
 #page_cart_reservation #collapsiblePanel_main_content_reservation,
+#page_cart_emptyShoppingCart #collapsiblePanel_main_content_cart,
 #page_account_tickets #collapsiblePanel_main_content_tickets {
   border: 1px solid #e6e6e6;
 }
 
+
+/** CHECKOUT PAGES **/
+#page_checkout_orderSummary #main_content_summary_products .message {
+  background: #f6f6f6;
+}
+
+
+#checkout_bar .symbol {
+  background-color: #BF0091;
+}
 
 
 /** ACCOUNT PAGES  **/
