@@ -18,9 +18,10 @@
   background-color: #f6f6f6;
   }
 
-   .product_title_container {
-    font-family: rwc;
-  }
+.product_title_container {
+  font-family: rwc;
+  font-weight: bold;
+}
 
    #page {
     background-color: #F6F6F6;
