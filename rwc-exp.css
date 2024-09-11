@@ -202,7 +202,7 @@ background-color: #bf0091;
 
 #page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .subtitle {
   display: block;
-  font-weight: normal;
+  font-weight: bold;
   color: #262626;
   text-align: center;
   font-family: RWC;
@@ -263,14 +263,19 @@ display: block;
 
 
 
-/** ACCOUNT PAGES  **/
+#page_cart_reservation #main_content_reservation,
 #page_account_tickets #main_content_tickets {
   border: none;
 }
 
+#page_cart_reservation #collapsiblePanel_main_content_reservation,
 #page_account_tickets #collapsiblePanel_main_content_tickets {
   border: 1px solid #e6e6e6;
 }
+
+
+
+/** ACCOUNT PAGES  **/
 
 #page_account_tickets .product_right_img {
   background-color: #F6F6F6;
