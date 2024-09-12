@@ -232,8 +232,8 @@ background-color: #bf0091;
     background-image: none;
   }
 
-  #page_selection_eventSeat .product_description_header .content_element.content,
-  #page_selection_eventDate .product_description_header .content_element.content{
+  #page_selection_eventSeat .product_description_header .content_element>.content,
+  #page_selection_eventDate .product_description_header .content_element>.content {
     padding: 0px !important;
   }
 }
