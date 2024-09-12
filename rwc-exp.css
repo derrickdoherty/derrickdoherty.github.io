@@ -56,7 +56,7 @@ border-radius: 12px;
 
 
  #secondary_content_general_info li {
-Color: #ffffff;
+  list-style: none:
 }
 
 a:link, a:active, a:visited {
@@ -182,6 +182,26 @@ background-color: #bf0091;
 }
 
 
+/************************/
+/** GENERAL RESPONSIVE **/
+/************************/
+@media screen and (max-width: 990px) {
+  .secondary_content.collapsible.alternative_content .title_container {
+    padding: 0.75em 30px !important;
+    background-size: 12px !important;
+    background-position: right 15px center !important; 
+  }
+
+        
+  .secondary_content.collapsible.alternative_content>input[type=checkbox]:checked ~ .collapsible_header>.title {
+    background-color: #FFF !important;
+    color: #000 !important;
+  }
+
+   .secondary_content #secondary_content_payment_modes #collapsiblePanel_secondary_content_payment_modes ul {
+      justify-content: center;
+   }
+}
 
 
 /*******************/
@@ -225,7 +245,7 @@ background-color: #bf0091;
   background-repeat: round;
 }
 
-/*RESPONSIVE*/
+/* PRODUCT RESPONSIVE*/
 @media screen and (max-width: 990px) {
   #page_selection_eventSeat .product_description_header,
   #page_selection_eventDate .product_description_header {
