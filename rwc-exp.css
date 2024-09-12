@@ -236,11 +236,47 @@ background-color: #bf0091;
   #page_selection_eventDate .product_description_header .content_element>.content {
     padding: 0px !important;
   }
+
+  #page_selection_eventDate .performance_SPORTING_EVENT .teams {
+    background: #FFFFFF;
+  }
+        
+  #page_selection_eventDate .performance_SPORTING_EVENT .buttons {
+    margin: 0.75em 1em 0 1em !important;
+  }
 }
 
-#page_selection_eventDate .performances_group_container .buttons {
-  margin: 0.75em 1em 0 1em !important;
+#page_selection_eventDate .performances_sub_container {
+  background-color: #F6F6F6;       
 }
+
+#page_selection_eventDate .performance_SPORTING_EVENT {
+  background-color: #FFF;       
+}
+
+#page_selection_eventDate .performance_SPORTING_EVENT .team .name {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+#page_selection_eventDate .performance_SPORTING_EVENT .team .image_container {
+  height: 40px;
+}
+
+#page_selection_eventDate .performance_SPORTING_EVENT .team.home .image_container {
+  margin-left: 10px;
+}
+
+#page_selection_eventDate .performance_SPORTING_EVENT .team.opposite .image_container {
+  margin-right: 10px;
+}
+
+#page_selection_eventDate .performance_SPORTING_EVENT .team .image_container {
+  height: 40px;
+  max-width: 50px;
+}
+
+
 
 #page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .subtitle {
   display: block;
