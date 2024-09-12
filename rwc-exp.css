@@ -203,8 +203,8 @@ background-color: #bf0091;
    }
 
     #secondary_content_payment_modes #collapsiblePanel_secondary_content_payment_modes ul {
-      list-style-type: none;
-      justify-content: center;
+      list-style-type: none !important;
+      justify-content: center !important;
     }
 }
 
@@ -303,6 +303,12 @@ background-color: #bf0091;
   #page_selection_eventDate .performance_SPORTING_EVENT .buttons {
     margin: 0.75em 1em 0 1em !important;
   }
+
+  #page_selection_eventSeat .stx_tfooter .stx_tfooter_buttons_container {
+    justify-content: center;
+    margin-top: 2em;
+  }
+       
 }
 
 
