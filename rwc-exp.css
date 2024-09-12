@@ -237,14 +237,39 @@ background-color: #bf0091;
     padding: 0px !important;
   }
 
+  #page_selection_eventDate .performance_SPORTING_EVENT .perf_info {
+    order: 2;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  #page_selection_eventDate .performance_SPORTING_EVENT .perf_info .match_round {
+    display: none;
+  }
+
+  #page_selection_eventDate .performance_SPORTING_EVENT .perf_info .date_time {
+    margin-top: 20px;
+  }
+        
   #page_selection_eventDate .performance_SPORTING_EVENT .teams {
     background: #FFFFFF;
+    top: 10px;
+    order: 1;
+    width: 100%
   }
+
+  #page_selection_eventDate .performance_SPORTING_EVENT .buttons_availability {
+    order: 3;
+  }
+        
         
   #page_selection_eventDate .performance_SPORTING_EVENT .buttons {
     margin: 0.75em 1em 0 1em !important;
   }
 }
+
+
+
 
 #page_selection_eventDate .performances_sub_container {
   background-color: #F6F6F6;       
@@ -271,7 +296,7 @@ background-color: #bf0091;
   margin-right: 10px;
 }
 
-#page_selection_eventDate .performance_SPORTING_EVENT .team .image_container {
+#page_selection_eventDate .performance_SPORTING_EVENT .team img {
   height: 40px;
   max-width: 50px;
 }
