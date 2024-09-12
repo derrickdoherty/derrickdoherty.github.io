@@ -255,7 +255,8 @@ background-color: #bf0091;
     background: #FFFFFF;
     top: 10px;
     order: 1;
-    width: 100%
+    width: 100%;
+    position: initial;
   }
 
   #page_selection_eventDate .performance_SPORTING_EVENT .buttons_availability {
