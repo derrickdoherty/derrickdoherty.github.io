@@ -201,6 +201,11 @@ background-color: #bf0091;
    .secondary_content #secondary_content_payment_modes #collapsiblePanel_secondary_content_payment_modes ul {
       justify-content: center;
    }
+
+    #secondary_content_payment_modes #collapsiblePanel_secondary_content_payment_modes ul {
+      list-style-type: none;
+      justify-content: center;
+    }
 }
 
 
