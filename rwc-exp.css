@@ -238,6 +238,10 @@ background-color: #bf0091;
   }
 }
 
+#page_selection_eventDate .performances_group_container .buttons {
+  margin: 0.75em 1em 0 1em !important;
+}
+
 #page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .subtitle {
   display: block;
   font-weight: bold;
