@@ -103,32 +103,16 @@ text-align: center;
   display: block;
 }
 
-#page_selection_eventDate .product_right_img {
-  background-color: #F6F6F6;
-  border: none;
-  position: relative;
-  background-image: url(https://sdo-p-001.sitecorecontenthub.cloud/api/public/content/8cf5d09c82b14ef0bedd1d5fbd2ec114?v=601fa7e4);
-  background-size: cover; 
-  background-repeat: round;
-}
-
-
  .product_description_header {
   background-color: #F6F6F6;
-}
-
-
-#page_selection_eventDate .product_description_header {
-  background-color: #F6F6F6;
-  background-image: url(https://sdo-q-001.sitecorecontenthub.cloud/api/public/content/756c9689ffbd43c3bc11a2b313d077eb?v=beac538f);
-  background-repeat: repeat-y;
-  background-size: cover;
 }
 
 .performances_container .group_sub_title {
     padding: 1em 45px 1em 45px;
     margin:0;
   }
+
+
 
 /* MARGIN PAIEMENT METHOD & GENERAL INFO */
 
@@ -198,7 +182,61 @@ background-color: #bf0091;
 }
 
 
-/* SECONDE PAGE */
+
+
+/*******************/
+/** GENERAL PAGES **/
+/*******************/
+
+#page_cart_reservation #main_content_reservation,
+#page_checkout_orderSummary #main_content_summary_products,
+#page_cart_emptyShoppingCart #main_content_cart,
+#page_account_tickets #main_content_tickets {
+  border: none;
+}
+
+#page_cart_reservation #collapsiblePanel_main_content_reservation,
+#page_cart_emptyShoppingCart #collapsiblePanel_main_content_cart,
+#page_account_tickets #collapsiblePanel_main_content_tickets {
+  border: 1px solid #e6e6e6;
+}
+
+
+
+
+/*******************/
+/** PRODUCT PAGES **/
+/*******************/
+#page_selection_eventSeat .product_description_header,
+#page_selection_eventDate .product_description_header {
+  background-color: #F6F6F6;
+  background-image: url(https://sdo-q-001.sitecorecontenthub.cloud/api/public/content/756c9689ffbd43c3bc11a2b313d077eb?v=beac538f);
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+#page_selection_eventSeat .product_right_img,
+#page_selection_eventDate .product_right_img {
+  background-color: #F6F6F6;
+  border: none;
+  position: relative;
+  background-image: url(https://sdo-p-001.sitecorecontenthub.cloud/api/public/content/8cf5d09c82b14ef0bedd1d5fbd2ec114?v=601fa7e4);
+  background-size: cover; 
+  background-repeat: round;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 990px) {
+  #page_selection_eventSeat .product_description_header,
+  #page_selection_eventDate .product_description_header {
+    background-image: none;
+  }
+
+  #page_selection_eventSeat .product_description_header .content_element.content,
+  #page_selection_eventDate .product_description_header .content_element.content{
+    padding: 0px !important;
+  }
+}
 
 #page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .subtitle {
   display: block;
@@ -223,19 +261,7 @@ display: block;
 }
 
 
-#page_selection_eventSeat .product_right_img {
-  background-image: url(https://sdo-p-001.sitecorecontenthub.cloud/api/public/content/8cf5d09c82b14ef0bedd1d5fbd2ec114?v=601fa7e4);
-  background-size: 100% 100%;
-  background-repeat: repeat;
-  background-position: initial;
-}
 
-#page_selection_eventSeat .product_description_header {
-  background-color: #F6F6F6;
-  background-image: url(https://sdo-q-001.sitecorecontenthub.cloud/api/public/content/756c9689ffbd43c3bc11a2b313d077eb?v=beac538f);
-  background-repeat: repeat-y;
-  background-size: cover;
-}
 
 #page_selection_eventSeat #main_content_seat_selection {
   border: none;
@@ -255,20 +281,6 @@ display: block;
 
 
 
-/** GENERAL PAGES **/
-
-#page_cart_reservation #main_content_reservation,
-#page_checkout_orderSummary #main_content_summary_products,
-#page_cart_emptyShoppingCart #main_content_cart,
-#page_account_tickets #main_content_tickets {
-  border: none;
-}
-
-#page_cart_reservation #collapsiblePanel_main_content_reservation,
-#page_cart_emptyShoppingCart #collapsiblePanel_main_content_cart,
-#page_account_tickets #collapsiblePanel_main_content_tickets {
-  border: 1px solid #e6e6e6;
-}
 
 
 /** CHECKOUT PAGES **/
