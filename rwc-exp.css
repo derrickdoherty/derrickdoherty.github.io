@@ -243,9 +243,7 @@ background-color: #bf0091;
     font-size: 14px;
   }
 
-  #page_selection_eventDate .performance_SPORTING_EVENT .perf_info .match_round {
-    display: none;
-  }
+  
 
   #page_selection_eventDate .performance_SPORTING_EVENT .perf_info .date_time {
     margin-top: 20px;
@@ -280,6 +278,10 @@ background-color: #bf0091;
 #page_selection_eventDate .performance_SPORTING_EVENT {
   background-color: #FFF;       
 }
+
+#page_selection_eventDate .performance_SPORTING_EVENT .perf_info .match_round {
+    display: none;
+  }
 
 #page_selection_eventDate .performance_SPORTING_EVENT .team .name {
   font-size: 16px;
