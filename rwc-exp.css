@@ -243,7 +243,9 @@ background-color: #bf0091;
     font-size: 14px;
   }
 
-  
+  #page_selection_eventDate .performances_container li {
+    padding-bottom: 0px;       
+  }
 
   #page_selection_eventDate .performance_SPORTING_EVENT .perf_info .date_time {
     margin-top: 20px;
@@ -260,6 +262,16 @@ background-color: #bf0091;
   #page_selection_eventDate .performance_SPORTING_EVENT .buttons_availability {
     order: 3;
     text-align: left;
+    font-size: 14px;
+  }
+
+  #page_selection_eventDate .performance_SPORTING_EVENT .buttons_availability .ticket_availability {
+    display: none;
+  }
+        
+  #page_selection_eventDate .performance_SPORTING_EVENT .buttons_availability .from {
+    margin-left: 6%;
+    padding-left: 10px;
   }
         
         
@@ -276,7 +288,9 @@ background-color: #bf0091;
 }
 
 #page_selection_eventDate .performance_SPORTING_EVENT {
-  background-color: #FFF;       
+  background-color: #FFF;
+  border-radius: 10px;
+  padding-bottom: 0px;
 }
 
 #page_selection_eventDate .performance_SPORTING_EVENT .perf_info .match_round {
