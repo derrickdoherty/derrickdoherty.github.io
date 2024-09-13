@@ -462,3 +462,719 @@ color: #BF0091;
 #page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, .menu_experience_vouchers 
 {border: none!important;
 }
+
+/* ***** CSS SODEXO SECUTIX RWC ***** */
+
+/* ////////////////////////*/
+/* ** 1. Landing Page  ** */
+/* //////////////////////*/
+
+/* button "BUY" color : yellow/gold brand */
+.dcKbOb {
+  background-color: #a57e00;
+}
+
+/* button "SEE ALL" color : yellow/gold brand */
+.bgKsaG {
+  background-color: #a57e00;
+}
+
+/* ///////////////////////////////*/
+/* ** 2. Match Selection Page ** */
+/* /////////////////////////////*/
+
+/* date in bold */
+p.semantic-no-styling-no-display,
+span.semantic-no-styling-no-display {
+  font-weight: bold;
+}
+
+/* stadium in bold */
+.site {
+  font-weight: bold;
+}
+
+/* /////////////////////////////////*/
+/* ** 4. Package Selection Page ** */
+/* ///////////////////////////////*/
+
+/* button "time select" color : yellow/gold brand */
+.performance_selector
+  .time_selection
+  .rs-carousel-inactive
+  .sliding_item
+  .button.selected
+  a,
+.performance_selector
+  .time_selection
+  .rs-carousel-runner
+  .sliding_item
+  .button.selected
+  a {
+  background-color: #a57e00;
+}
+
+/* button "add to basket" color : yellow/gold brand */
+@media screen and (max-width: 1399px) {
+  body.rwd .button a {
+    background-color: #a57e00;
+  }
+}
+/* hoover */
+@media screen and (max-width: 1399px) {
+  body.rwd .button a:hover {
+    background: #a57e00;
+  }
+}
+
+/* ////////////////////////////////*/
+/* ** 5. Items added to Basket ** */
+/* //////////////////////////////*/
+
+/* remove tick */
+/* .message.success>.content>.icon {
+    display: none;
+} */
+
+/* here to change rewind symbol */
+/* .alternative_button.rewind .symbol {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMnB4IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEycHgiIHg9IjBweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeT0iMHB4Ij4KPHBhdGggZD0iTSA0NDYsMTEzLjU5NyA0NDYsMzk4LjQwNCAyNDAsMjU2LjAwMSA0NDYsMTEzLjU5NyBaIE0gMzQsMjU2LjAwMSAyNDAsMzk4LjQwMyAyNDAsMTEzLjU5NyAzNCwyNTYuMDAxIFoiIGZpbGw9IiNiZjAwOTEiIGlkPSJyZXdpbmQtaWNvbiIvPgo8L3N2Zz4=);
+} */
+
+/* "CONTINUE SHOPPING" color : yellow/gold brand */
+.alternative_button a {
+  color: #a57e00;
+}
+
+/* ////////////////////////////////////////*/
+/* ** 6. Buy Now – Customer Login Page ** */
+/* //////////////////////////////////////*/
+
+/* center the title "Welcome to RWC25 Premium Experiences" */
+.main_content_group > .content_title > .title .main_title {
+  text-align: center;
+}
+
+/* ////////////////////////////*/
+/* ** 7. Create an account ** */
+/* //////////////////////////*/
+
+/* link "the data privacy policy" color : yellow/gold brand is same class "add to basket" fix in part 4 */
+a:link,
+a:active,
+a:visited {
+  color: #a57e00;
+}
+
+.alternative_button.back .text {
+  color: #a57e00;
+}
+
+/* here to change back symbol */
+/* .alternative_button.back .symbol {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMnB4IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEycHgiIHg9IjBweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeT0iMHB4Ij4KCjxwb2x5Z29uIGZpbGw9IiNiZjAwOTEiIGlkPSJhcnJvdy0yNS1pY29uIiBwb2ludHM9IjE0Mi4zMzIsMTA0Ljg4NiAxOTcuNDgsNTAgNDAyLjUsMjU2IDE5Ny40OCw0NjIgMTQyLjMzMiw0MDcuMTEzIDI5Mi43MjcsMjU2ICIgdHJhbnNmb3JtPSJtYXRyaXgoLTEsMCwwLDEsNTEyLDApIi8+Cgo8L3N2Zz4=);
+} */
+
+/* ////////////////////////////////////////////////////*/
+/* ** 11. Payment page – Select Visa or Mastercard ** */
+/* //////////////////////////////////////////////////*/
+
+/* remove mandatory field */
+/*#main_content_payment_saved_cards.main_content>.content_element>.content .message {
+    display: none;
+}*/
+
+/* ////////////////////////////////////////////////////////////////////*/
+/* ** 12. Profile and Payment Methods – Edit your personal details ** */
+/* //////////////////////////////////////////////////////////////////*/
+
+/* Remove internet B2C */
+.created_from {
+  display: none;
+}
+
+/* Make whole account deletion area, smaller and more discrete, */
+#account_remove_btn a {
+  background-color: grey;
+  font-size: 11px;
+  height: 25px;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 1399px) {
+  body.rwd .button a:hover {
+    background: #a57e00;
+  }
+}
+
+/* ////////////////////////////*/
+/* ** 13. Other ** */
+/* //////////////////////////*/
+
+/* Remove vs */
+
+p#teams_Final span.team.separator {
+  visibility: hidden;
+}
+
+p#teams_Final span.team.separator:after {
+  position: relative;
+  content: "&";
+  visibility: visible;
+  left: -5px;
+}
+
+/* Remove season */
+
+div#page_account_tickets span.season {
+  display: none !important;
+}
+
+/* Remove seat details */
+
+div#page_account_tickets span.seat {
+  display: none;
+}
+
+/* Remove Details File Summary */
+
+div#page_account_file td.seat {
+  display: none;
+}
+
+div#page_account_file td.unit_price {
+  display: none;
+}
+
+div#page_account_file tr.subtotal {
+  display: none;
+}
+
+div#page_account_file .event_header {
+  display: none;
+}
+
+/* Remove Basket Summary */
+
+p.semantic-no-styling-no-display.cart_content {
+  display: none !important;
+}
+
+/* Remove Package Amount */
+
+.reservation_selected_quantity {
+  display: none;
+}
+
+/* Remove Package Line Info */
+
+.package_line_info {
+  display: none;
+}
+
+/* Remove Package Line Content */
+
+.total_package_content {
+  display: none;
+}
+
+/* Remove Table Columns */
+
+div#page_selection_package th.subtotal {
+  display: none;
+}
+
+div#page_selection_package td.subtotal {
+  display: none;
+}
+
+div#page_selection_package th.unit_price {
+  display: none;
+}
+
+div#page_selection_package td.unit_price {
+  display: none;
+}
+
+div#page_selection_package th.area.stx_normal_colspan {
+  display: none;
+}
+
+div#page_selection_package td.area.stx_normal_colspan {
+  display: none;
+}
+
+/* Remove Confirmation Message */
+
+div#page_cart_reservation p.semantic-no-styling {
+  display: none;
+}
+
+/* Remove Columns from Basket */
+
+div#page_cart_reservation td.unit_price {
+  display: none;
+}
+
+div#page_cart_reservation td.seat {
+  display: none;
+}
+
+div#page_cart_shoppingCart td.unit_price {
+  display: none;
+}
+
+div#page_cart_shoppingCart td.seat {
+  display: none;
+}
+
+/* Remove Columns from Summary */
+
+div#page_checkout_orderSummary td.unit_price {
+  display: none;
+}
+
+div#page_checkout_orderSummary td.seat {
+  display: none;
+}
+
+/* Remove See All button */
+
+.sc-cooIXK.stx-Catalog-seeAllButton.iuPCdo {
+  display: none;
+}
+
+/* Remove Preference Column From Table */
+
+td.area.stx_normal_colspan {
+  display: none;
+}
+
+th.area.stx_normal_colspan {
+  display: none;
+}
+
+/* Remove Grey Box for Logo */
+
+.match_logo_wrapper {
+  display: none;
+}         
+
+/* Remove vs */
+
+p#teams_Final span.team.separator {
+  visibility: hidden;
+}
+
+p#teams_Final span.team.separator:after {
+  position: relative;
+  content: "&";
+  visibility: visible;
+  left: -5px;
+}
+
+/* Remove season */
+
+div#page_account_tickets span.season {
+  display: none !important;
+}
+
+/* Remove seat details */
+
+div#page_account_tickets span.seat {
+  display: none;
+}
+
+/* Remove Details File Summary */
+
+div#page_account_file td.seat {
+  display: none;
+}
+
+div#page_account_file td.unit_price {
+  display: none;
+}
+
+div#page_account_file tr.subtotal {
+  display: none;
+}
+
+div#page_account_file .event_header {
+  display: none;
+}
+
+/* Remove Basket Summary */
+
+p.semantic-no-styling-no-display.cart_content {
+  display: none !important;
+}
+
+/* Remove Package Amount */
+
+.reservation_selected_quantity {
+  display: none;
+}
+
+/* Remove Package Line Info */
+
+.package_line_info {
+  display: none;
+}
+
+/* Remove Package Line Content */
+
+.total_package_content {
+  display: none;
+}
+
+/* Remove Table Columns */
+
+div#page_selection_package th.subtotal {
+  display: none;
+}
+
+div#page_selection_package td.subtotal {
+  display: none;
+}
+
+div#page_selection_package th.unit_price {
+  display: none;
+}
+
+div#page_selection_package td.unit_price {
+  display: none;
+}
+
+div#page_selection_package th.area.stx_normal_colspan {
+  display: none;
+}
+
+div#page_selection_package td.area.stx_normal_colspan {
+  display: none;
+}
+
+/* Remove Confirmation Message */
+
+div#page_cart_reservation p.semantic-no-styling {
+  display: none;
+}
+
+/* Remove Columns from Basket */
+
+div#page_cart_reservation td.unit_price {
+  display: none;
+}
+
+div#page_cart_reservation td.seat {
+  display: none;
+}
+
+div#page_cart_shoppingCart td.unit_price {
+  display: none;
+}
+
+div#page_cart_shoppingCart td.seat {
+  display: none;
+}
+
+/* Remove Columns from Summary */
+
+div#page_checkout_orderSummary td.unit_price {
+  display: none;
+}
+
+div#page_checkout_orderSummary td.seat {
+  display: none;
+}
+
+/* Remove See All button */
+
+.sc-cooIXK.stx-Catalog-seeAllButton.iuPCdo {
+  display: none;
+}
+
+/* Remove Preference Column From Table */
+
+td.area.stx_normal_colspan {
+  display: none;
+}
+
+th.area.stx_normal_colspan {
+  display: none;
+}
+
+/* Remove Grey Box for Logo */
+
+.match_logo_wrapper {
+  display: none;
+}
+
+/* ***** CSS SODEXO SECUTIX RWC ***** */
+
+/* ////////////////////////*/
+/* ** 1. Landing Page  ** */
+/* //////////////////////*/
+
+
+
+
+/* Womens Rugby World Cup */
+#secondary_content_container,
+#secondary_content_container .title_container{
+  text-align: center;
+}
+#secondary_content_payment_modes #collapsiblePanel_secondary_content_payment_modes ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#secondary_content_payment_modes li .payment_method{
+  width: 5rem !important;
+  height: unset !important;
+}
+#secondary_content_payment_modes{
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#secondary_content_general_info,
+#secondary_content_general_info .flex_title{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#product_header .content_product_info .date:before{
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMnB4IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEycHgiIHg9IjBweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeT0iMHB4Ij4KPHBhdGggZD0iTTE5Ny40NTMsMjk1Ljk1MWgtNTguOTA1di01OC45MDRoNTguOTA1VjI5NS45NTF6IE0yODYuNDUyLDIzNy4wNDdoLTU4LjkwNHY1OC45MDRoNTguOTA0VjIzNy4wNDd6ICAgTTM3NS40NTIsMjM3LjA0N2gtNTguOTA1djU4LjkwNGg1OC45MDVWMjM3LjA0N3ogTTE5Ny40NTMsMzIzLjA0N2gtNTguOTA1djU4LjkwNmg1OC45MDVWMzIzLjA0N3ogTTI4Ni40NTIsMzIzLjA0N2gtNTguOTA0ICB2NTguOTA2aDU4LjkwNFYzMjMuMDQ3eiBNMzc1LjQ1MSwzMjMuMDQ3aC01OC45MDR2NTguOTA2aDU4LjkwNFYzMjMuMDQ3eiBNMzk3LjM4OSwxMTguMTMxYzAsMTAuMDM1LTguMTM1LDE4LjE3MS0xOC4xNywxOC4xNzEgIHMtMTguMTcxLTguMTM2LTE4LjE3MS0xOC4xNzFWNzIuNDAyYzAtMTAuMDM0LDguMTM2LTE4LjE3LDE4LjE3MS0xOC4xN3MxOC4xNyw4LjEzNiwxOC4xNywxOC4xN1YxMTguMTMxeiBNMTUxLjg4OSw3Mi4zMiAgYzAtMTAuMDM1LTguMTM2LTE4LjE3MS0xOC4xNy0xOC4xNzFjLTEwLjAzNiwwLTE4LjE3MSw4LjEzNi0xOC4xNzEsMTguMTcxdjQ1LjcyOGMwLDEwLjAzNSw4LjEzNSwxOC4xNzEsMTguMTcxLDE4LjE3MSAgYzEwLjAzNCwwLDE4LjE3LTguMTM2LDE4LjE3LTE4LjE3MVY3Mi4zMnogTTQxOS4zNTIsOTguODUxdjE4LjYxNmMwLDIyLjEzLTE4LjAwNCw0MC4xMzQtNDAuMTMzLDQwLjEzNCAgYy0yMi4xMywwLTQwLjEzNC0xOC4wMDQtNDAuMTM0LTQwLjEzNFY5OC44NTFIMTczLjg1MnYxOC41MzNjMCwyMi4xMy0xOC4wMDQsNDAuMTM0LTQwLjEzMyw0MC4xMzQgIGMtMjIuMTMsMC00MC4xMzQtMTguMDA0LTQwLjEzNC00MC4xMzRWOTguODUxSDUwdjM1OWg0MTJ2LTM1OUg0MTkuMzUyeiBNNDIyLDQxNy44NTFIOTBWMTk1LjM4aDMzMlY0MTcuODUxeiIgZmlsbD0iI0JGMDA5MSIgaWQ9ImNhbGVuZGFyLTUtaWNvbiIvPgo8L3N2Zz4=');
+}
+#product_header .product_right_img .time:before{
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyBoZWlnaHQ9IjE3OTIiIHZpZXdCb3g9IjAgMCAxNzkyIDE3OTIiIHdpZHRoPSIxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xMDI0IDU0NHY0NDhxMCAxNC05IDIzdC0yMyA5aC0zMjBxLTE0IDAtMjMtOXQtOS0yM3YtNjRxMC0xNCA5LTIzdDIzLTloMjI0di0zNTJxMC0xNCA5LTIzdDIzLTloNjRxMTQgMCAyMyA5dDkgMjN6bTQxNiAzNTJxMC0xNDgtNzMtMjczdC0xOTgtMTk4LTI3My03My0yNzMgNzMtMTk4IDE5OC03MyAyNzMgNzMgMjczIDE5OCAxOTggMjczIDczIDI3My03MyAxOTgtMTk4IDczLTI3M3ptMjI0IDBxMCAyMDktMTAzIDM4NS41dC0yNzkuNSAyNzkuNS0zODUuNSAxMDMtMzg1LjUtMTAzLTI3OS41LTI3OS41LTEwMy0zODUuNSAxMDMtMzg1LjUgMjc5LjUtMjc5LjUgMzg1LjUtMTAzIDM4NS41IDEwMyAyNzkuNSAyNzkuNSAxMDMgMzg1LjV6IiBmaWxsPSIjQkYwMDkxIi8+PC9zdmc+');
+}
+#product_header .product_right_img .location::before{
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyBoZWlnaHQ9IjE3OTIiIHZpZXdCb3g9IjAgMCAyMDQ4IDE3OTIiIHdpZHRoPSIyMDQ4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0yMDIwIDExcTI4IDIwIDI4IDUzdjE0MDhxMCAyMC0xMSAzNnQtMjkgMjNsLTY0MCAyNTZxLTI0IDExLTQ4IDBsLTYxNi0yNDYtNjE2IDI0NnEtMTAgNS0yNCA1LTE5IDAtMzYtMTEtMjgtMjAtMjgtNTN2LTE0MDhxMC0yMCAxMS0zNnQyOS0yM2w2NDAtMjU2cTI0LTExIDQ4IDBsNjE2IDI0NiA2MTYtMjQ2cTMyLTEzIDYwIDZ6bS0xMjg0IDEzNXYxMjcwbDU3NiAyMzB2LTEyNzB6bS02MDggMjE3djEyNzBsNTQ0LTIxN3YtMTI3MHptMTc5MiAxMDY2di0xMjcwbC01NDQgMjE3djEyNzB6IiBmaWxsPSIjQkYwMDkxIi8+PC9zdmc+');
+}
+#performance_chooser #performance_container .perf_details .perf_info .match_round {
+  display: none;
+}
+@media screen and (min-width: 991px){
+  #secondary_content_container,
+  #secondary_content_container .title_container{
+    text-align: center;
+  }
+  #performance_chooser .performance_line_container .perf_details:after{
+    content: ' ';
+    width: 24px;
+    height: 24px;
+    top: -2px;
+    position: relative;
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMWVtIiBoZWlnaHQ9IjFlbSIgdmlld0JveD0iMCAwIDIwIDE0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpY29uLVNQQUdYIGljb25fbGFyZ2UtTHJTaUsiIGFyaWEtaGlkZGVuPSJ0cnVlIiBkYXRhLXRlc3RpZD0ic3ZnLWljb24iIGZvY3VzYWJsZT0iZmFsc2UiIHJvbGU9InByZXNlbnRhdGlvbiI+PHBhdGggZD0iTS41MDggNi40NnYxLjk3NkgxNC44NnYuNTcyTDkuODY4IDE0aDIuNjc4bDYuNTI2LTYuNTUyTDEyLjU0Ni44OTZIOS44NjhsNC45OTIgNC45OTJ2LjU3MkguNTA4WiIgZmlsbD0iI0JGMDA5MSI+PC9wYXRoPjwvc3ZnPg==');
+  }
+  #performance_chooser #performance_container .performances_group_container li.performance{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #performance_chooser #performance_container .perf_details .perf_info {
+    width: 30%;
+  }
+  #performance_chooser #performance_container .perf_details .teams{
+    width: 50%;
+  }
+  #performance_chooser #performance_container .perf_details .buttons_availability{
+    width: 20%;
+  }
+  #performance_chooser #performance_container .perf_details .perf_info .date_time {
+    text-wrap: nowrap;
+    min-width: 145px;
+  }
+}
+@media screen and (max-width: 990px){
+  #secondary_content_navigation.slide_right,
+  #secondary_content_navigation.slide_right .content_element .content,
+  #secondary_content_navigation.slide_right .content_element .content .account_info{
+    background-color: #fff !important;
+  }
+  #secondary_content_navigation.slide_right .item:FIRST-CHILD{
+    border-top: none !important;
+  }
+  #secondary_content_navigation.slide_right .account_info,
+  #secondary_content_navigation.slide_right .menu_product_category,
+  #secondary_content_navigation.slide_right .item.item_link a:before {
+    display: none !important;
+  }
+  #secondary_content_navigation.slide_right .close-btn-wrapper{
+    top: 0;
+    position: absolute;
+    right: 0;
+  }
+  #secondary_content_navigation.slide_right #close-dialog-button{
+    background-color: transparent !important;
+  }
+  #secondary_content_navigation.slide_right #close-dialog-button .close-dialog-icon{
+    filter: unset !important;
+    height: 50px;
+    width: 50px;
+    background-size: 30px 30px;
+  }
+  #secondary_content_navigation.slide_right .content_element{
+    height: 99vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #secondary_content_navigation.slide_right .item.item_link a {
+    text-transform: uppercase !important;
+    border-bottom: none !important;
+  }
+  body.rwd .button a span{
+    color: #fff;
+    font-size: larger;
+  }
+  #secondary_content_navigation.slide_right .menu_experience_vouchers,
+  #secondary_content_navigation.slide_right .menu_client_account,
+  #secondary_content_navigation.slide_right #menu_first_level_tickets .openable.open,
+  #secondary_content_navigation.slide_right #menu_first_level_profile .openable.open{
+    display: none;
+  }
+  #secondary_content_navigation.slide_right .button.tickets_menu_logout .text{
+    color: #fff !important;
+  }
+  #secondary_content_navigation.slide_right ul li a{
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 15px !important;
+    margin-top: 20px;
+    padding-left: 0 !important;
+  }
+  #secondary_content_navigation.slide_right .button.tickets_menu_logout{
+    float: none !important;
+    padding-right: 0 !important;
+  }
+  #secondary_content_navigation.slide_right .button.tickets_menu_logout a{
+    margin-top: 20px !important;
+  }
+}         
+/* Remove Details File Summary */
+
+div#page_account_file td.seat {
+    display: none;
+}
+
+div#page_account_file td.unit_price {
+    display: none;
+}
+
+div#page_account_file tr.subtotal {
+    display: none;
+}
+
+div#page_account_file .event_header {
+    display: none;
+}
+
+/* Remove Basket Summary */
+
+p.semantic-no-styling-no-display.cart_content {
+    display: none !important;
+}
+
+/* Remove Tickets Amount */
+
+div#page_cart_shoppingCart .event_header {
+    display: none;
+}
+
+div#page_cart_reservation .event_header {
+    display: none;
+}
+
+/* Remove Package Amount */
+
+.reservation_selected_quantity {
+    display: none;
+}
+
+/* Remove Package Line Info */
+
+.package_line_info {
+    display: none;
+}
+
+/* Remove Package Line Content */
+
+.total_package_content {
+    display: none;
+}
+
+/* Remove Table Columns */
+
+div#page_selection_package th.subtotal {
+    display: none;
+}
+
+div#page_selection_package td.subtotal {
+    display: none;
+}
+
+div#page_selection_package th.unit_price {
+    display: none;
+}
+
+div#page_selection_package td.unit_price {
+    display: none;
+}
+
+div#page_selection_package th.area.stx_normal_colspan {
+    display: none;
+}
+
+div#page_selection_package td.area.stx_normal_colspan {
+    display: none;
+}
+
+/* Remove Confirmation Message */
+
+div#page_cart_reservation p.semantic-no-styling {
+    display: none;
+}
+
+/* Remove Columns from Basket */
+
+div#page_cart_reservation td.unit_price {
+    display: none;
+}
+
+div#page_cart_reservation td.seat {
+    display: none;
+}
+
+div#page_cart_shoppingCart td.unit_price {
+    display: none;
+}
+
+div#page_cart_shoppingCart td.seat {
+    display: none;
+}
+
+/* Remove Columns from Summary */
+
+div#page_checkout_orderSummary td.unit_price {
+    display: none;
+}
+
+div#page_checkout_orderSummary td.seat {
+    display: none;
+}
+
+/* Remove See All button */
+
+.sc-cooIXK.stx-Catalog-seeAllButton.iuPCdo {
+    display: none;
+}
+
+/* Remove Delivery Date */
+
+p.semantic-no-styling.label_value.delivery_mode_delay.shipment_mode_HANDED_POSTPONED {
+    display: none;
+}         
+         
