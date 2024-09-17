@@ -239,6 +239,7 @@ background-color: #bf0091;
   background-image: url(https://sdo-p-001.sitecorecontenthub.cloud/api/public/content/ec8dddd47c0c4c2386ebdf7b7feb02ce?v=f7a13508);
   background-repeat: repeat-y;
   background-size: cover;
+  min-height: 500px;
 }
 
 #page_selection_eventSeat .product_description_header .content_element>.content,
