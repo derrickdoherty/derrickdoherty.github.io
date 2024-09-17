@@ -238,7 +238,8 @@ background-color: #bf0091;
   /* background-image: url(https://sdo-q-001.sitecorecontenthub.cloud/api/public/content/756c9689ffbd43c3bc11a2b313d077eb?v=beac538f); */
   background-image: url(https://sdo-p-001.sitecorecontenthub.cloud/api/public/content/ec8dddd47c0c4c2386ebdf7b7feb02ce?v=f7a13508);
   background-repeat: repeat-y;
-  background-size: cover;
+  /* background-size: cover; */
+  background-size: 100% 100%;
   background-position: center;
   min-height: 500px;
 }
@@ -320,7 +321,7 @@ background-color: #bf0091;
        
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   #page_selection_eventSeat .product_description_header,
   #page_selection_eventDate .product_description_header {
     background-image: url(https://sdo-p-001.sitecorecontenthub.cloud/api/public/content/79b483b378ab4a82bd097e621320dc47?v=0fe4b61a);
