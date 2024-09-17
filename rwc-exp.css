@@ -74,8 +74,9 @@ background-color: #f6f6f6;
   border:none;
 }
 
- .product_right_img .title {
-text-align: center;
+.product_right_img .title {
+  text-align: center;
+  width: 100%;
 }
 
  .product_right_img .product_image_container {
@@ -334,9 +335,17 @@ background-color: #bf0091;
     margin: auto;
     padding-bottom: 8em;
   }
+
+  #page_selection_eventDate .product_right_img {
+    padding-top: 50px;
+  }
 }
 
 
+#page_selection_eventDate .product_right_img {
+  padding-top: 100px;
+}
+         
 #page_selection_eventDate .performances_sub_container {
   background-color: #F6F6F6;
   padding-top: 20px;
@@ -397,9 +406,6 @@ background-color: #bf0091;
 display: block;
   text-align: center;
 }
-
-
-
 
 #page_selection_eventSeat #main_content_seat_selection {
   border: none;
