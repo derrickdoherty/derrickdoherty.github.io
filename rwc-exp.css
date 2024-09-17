@@ -447,6 +447,7 @@ display: block;
   background-image: url(https://sdo-p-001.sitecorecontenthub.cloud/api/public/content/8cf5d09c82b14ef0bedd1d5fbd2ec114?v=601fa7e4);
   background-size: cover; 
   background-repeat: round;
+  padding: 40px 15%;
 }
 
 #page_account_tickets .print_options {
