@@ -531,6 +531,14 @@ font-weight: bold;
   float: none !important;
 }
 
+#page_account_home #secondary_content_navigation .tickets_menu_logout:hover,
+#page_account_tickets #secondary_content_navigation .tickets_menu_logout:hover,
+#page_account_files #secondary_content_navigation .tickets_menu_logout:hover,
+#page_account_file #secondary_content_navigation .tickets_menu_logout:hover,
+#page_account_editPersonalDetails #secondary_content_navigation .tickets_menu_logout:hover {
+  background-color: white;
+}
+
 #page_account_home #secondary_content_navigation .tickets_menu_logout a,
 #page_account_tickets #secondary_content_navigation .tickets_menu_logout a,
 #page_account_files #secondary_content_navigation .tickets_menu_logout a,
