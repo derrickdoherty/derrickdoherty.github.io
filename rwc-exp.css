@@ -525,10 +525,10 @@ font-weight: bold;
 #page_account_files #secondary_content_navigation .tickets_menu_logout,
 #page_account_file #secondary_content_navigation .tickets_menu_logout,
 #page_account_editPersonalDetails #secondary_content_navigation .tickets_menu_logout {
-  margin-top: 20px;
-  width: auto;
-  display: inline-block;
-  float: none;
+  margin-top: 20px !important;
+  width: auto !important;
+  display: inline-block !important;
+  float: none !important;
 }
 
 #page_account_home #secondary_content_navigation .tickets_menu_logout a,
@@ -536,7 +536,7 @@ font-weight: bold;
 #page_account_files #secondary_content_navigation .tickets_menu_logout a,
 #page_account_file #secondary_content_navigation .tickets_menu_logout a,
 #page_account_editPersonalDetails #secondary_content_navigation .tickets_menu_logout a {
-  height: auto;
+  height: auto !important;
   border-radius: 10px
 }
 
