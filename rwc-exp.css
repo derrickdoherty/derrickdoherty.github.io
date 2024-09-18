@@ -498,7 +498,7 @@ font-weight: bold;
 #page_account_files #secondary_content_navigation ul a,
 #page_account_file #secondary_content_navigation ul a,
 #page_account_editPersonalDetails #secondary_content_navigation ul a {
-  padding: 0px 10px;
+  padding: 0px 10px !important;
 }
 
 #page_account_home #secondary_content_navigation ul a:hover,
@@ -506,9 +506,9 @@ font-weight: bold;
 #page_account_files #secondary_content_navigation ul a:hover,
 #page_account_file #secondary_content_navigation ul a:hover,
 #page_account_editPersonalDetails #secondary_content_navigation ul a:hover {
-  background-color: white;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
+  background-color: white !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
 }
 
 #page_account_home #secondary_content_navigation ul li.tickets_menu_add_products,
@@ -520,11 +520,11 @@ font-weight: bold;
   border-bottom: 1px solid #bf0091;
 }
 
-#page_account_home #secondary_content_navigation tickets_menu_logout,
-#page_account_tickets #secondary_content_navigation tickets_menu_logout,
-#page_account_files #secondary_content_navigation tickets_menu_logout,
-#page_account_file #secondary_content_navigation tickets_menu_logout,
-#page_account_editPersonalDetails #secondary_content_navigation tickets_menu_logout {
+#page_account_home #secondary_content_navigation .tickets_menu_logout,
+#page_account_tickets #secondary_content_navigation .tickets_menu_logout,
+#page_account_files #secondary_content_navigation .tickets_menu_logout,
+#page_account_file #secondary_content_navigation .tickets_menu_logout,
+#page_account_editPersonalDetails #secondary_content_navigation .tickets_menu_logout {
   margin-top: 20px;
   width: auto;
   display: inline-block;
