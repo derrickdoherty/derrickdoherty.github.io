@@ -531,20 +531,20 @@ font-weight: bold;
   float: none;
 }
 
-#page_account_home #secondary_content_navigation tickets_menu_logout a,
-#page_account_tickets #secondary_content_navigation tickets_menu_logout a,
-#page_account_files #secondary_content_navigation tickets_menu_logout a,
-#page_account_file #secondary_content_navigation tickets_menu_logout a,
-#page_account_editPersonalDetails #secondary_content_navigation tickets_menu_logout a {
+#page_account_home #secondary_content_navigation .tickets_menu_logout a,
+#page_account_tickets #secondary_content_navigation .tickets_menu_logout a,
+#page_account_files #secondary_content_navigation .tickets_menu_logout a,
+#page_account_file #secondary_content_navigation .tickets_menu_logout a,
+#page_account_editPersonalDetails #secondary_content_navigation .tickets_menu_logout a {
   height: auto;
   border-radius: 10px
 }
 
-#page_account_home #secondary_content_navigation tickets_menu_logout a .text,
-#page_account_tickets #secondary_content_navigation tickets_menu_logout a .text,
-#page_account_files #secondary_content_navigation tickets_menu_logout a .text,
-#page_account_file #secondary_content_navigation tickets_menu_logout a .text,
-#page_account_editPersonalDetails #secondary_content_navigation tickets_menu_logout a .text {
+#page_account_home #secondary_content_navigation .tickets_menu_logout a .text,
+#page_account_tickets #secondary_content_navigation .tickets_menu_logout a .text,
+#page_account_files #secondary_content_navigation .tickets_menu_logout a .text,
+#page_account_file #secondary_content_navigation .tickets_menu_logout a .text,
+#page_account_editPersonalDetails #secondary_content_navigation .tickets_menu_logout a .text {
   color: white;
   padding: 10px 35px;
 }
