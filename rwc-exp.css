@@ -81,6 +81,7 @@ background-color: #f6f6f6;
 .product_right_img .title {
   text-align: center;
   width: 100%;
+  line-height: 60px;
 }
 
  .product_right_img .product_image_container {
