@@ -418,7 +418,7 @@ display: block;
   flex-direction:row-reverse!important;
 }
 
-#page_account_register #account_type_selection {
+#page_account_register {
   display: none;
 }
 
