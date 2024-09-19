@@ -575,8 +575,12 @@ font-weight: bold;
   margin: 0px!important;
 }
 
-#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, .menu_experience_vouchers 
-{border: none!important;
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, .menu_experience_vouchers {
+  border: none!important;
+}
+
+#page_account_tickets #ticket_filter_form {
+  display: none;
 }
 
 /* ***** CSS SODEXO SECUTIX RWC ***** */
