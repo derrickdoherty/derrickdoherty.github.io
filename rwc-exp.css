@@ -869,6 +869,10 @@ div#page_checkout_orderSummary td.seat {
   display:none;
 }
 
+#page_checkout_orderSummary #shipment_fee_ticket {
+  display: none;
+}
+
 
 /* Remove See All button */
 
