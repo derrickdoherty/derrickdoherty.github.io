@@ -445,6 +445,9 @@ display: block;
   background: #f6f6f6;
 }
 
+#page_checkout_orderSummary .delivery_mode_delay {
+  display: none;
+}
 
 #checkout_bar .symbol {
   background-color: #BF0091;
