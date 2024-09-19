@@ -865,6 +865,10 @@ div#page_checkout_orderSummary td.seat {
   display: none;
 }
 
+#page_checkout_orderSummary .seat_category_section .widget_SPORTING_EVENT {
+  display:none;
+}
+
 
 /* Remove See All button */
 
