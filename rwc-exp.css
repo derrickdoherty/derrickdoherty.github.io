@@ -590,6 +590,10 @@ font-weight: bold;
   display: none;
 }
 
+#page_account_file #collapsiblePanel_main_content_file_summary .sales_channel {
+  display: none;
+}
+
 /* ***** CSS SODEXO SECUTIX RWC ***** */
 
 /* ////////////////////////*/
