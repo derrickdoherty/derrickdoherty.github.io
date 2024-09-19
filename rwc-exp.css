@@ -1216,6 +1216,10 @@ div#page_cart_shoppingCart .event_header {
 }
 
 div#page_cart_reservation .event_header {
+    /*display: none;*/
+}
+
+div#page_cart_reservation .widget_SPORTING_EVENT {
     display: none;
 }
 
