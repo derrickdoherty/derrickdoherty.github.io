@@ -823,7 +823,7 @@ div#page_selection_package td.area.stx_normal_colspan {
 /* Remove Confirmation Message */
 
 div#page_cart_reservation p.semantic-no-styling {
-  display: none;
+  /*display: none;*/
 }
 
 /* Remove Columns from Basket */
