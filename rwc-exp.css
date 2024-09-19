@@ -414,6 +414,10 @@ display: block;
   border: 1px solid #e6e6e6;
 }
 
+#page_selection_eventSeat #event_form .legend {
+  display:none;
+}
+
 #page_checkout_payment .payment_method_list.payment_method_chooser.main_content_payment {
   flex-direction:row-reverse!important;
 }
