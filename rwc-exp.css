@@ -55,10 +55,14 @@ border-radius: 12px;
 }
 
 
- #secondary_content_general_info li {
+#secondary_content_general_info li {
   list-style: none:
 }
 
+#secondary_content_general_info .content_title {
+  display:none;
+}
+        
 a:link, a:active, a:visited {
   color: #BF0091!important;
 }
