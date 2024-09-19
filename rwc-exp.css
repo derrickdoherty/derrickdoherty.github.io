@@ -279,6 +279,11 @@ background-color: #bf0091;
     font-size: 14px;
   }
 
+  #page_selection_eventDate .performance_SPORTING_EVENT .team .name {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
   #page_selection_eventDate .performances_container li {
     padding-bottom: 0px;       
   }
@@ -360,10 +365,10 @@ background-color: #bf0091;
     display: none;
   }
 
-#page_selection_eventDate .performance_SPORTING_EVENT .team .name {
+/* #page_selection_eventDate .performance_SPORTING_EVENT .team .name {
   font-size: 16px;
   line-height: 16px;
-}
+} */
 
 #page_selection_eventDate .performance_SPORTING_EVENT .team .image_container {
   height: 40px;
@@ -1080,10 +1085,19 @@ th.area.stx_normal_colspan {
     padding-right: 5px;
   }
   #performance_chooser #performance_container .perf_details .perf_info {
-    width: 30%;
+    width: 35%;
   }
-  #performance_chooser #performance_container .perf_details .teams{
+
+  #performance_chooser #performance_container .perf_details .perf_info .date_time {
     width: 50%;
+  }
+
+  #performance_chooser #performance_container .perf_details .perf_info .venue_group_match {
+    width: 50%;
+  }
+        
+  #performance_chooser #performance_container .perf_details .teams{
+    width: 45%;
   }
   #performance_chooser #performance_container .perf_details .buttons_availability{
     width: 20%;
