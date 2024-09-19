@@ -857,6 +857,12 @@ div#page_checkout_orderSummary td.seat {
   display: none;
 }
 
+#page_checkout_orderSummary .alternative_button.plus,
+#page_checkout_orderSummary .alternative_button.less {
+  display: none;
+}
+
+
 /* Remove See All button */
 
 .sc-cooIXK.stx-Catalog-seeAllButton.iuPCdo {
