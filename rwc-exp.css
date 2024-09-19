@@ -583,6 +583,10 @@ font-weight: bold;
   display: none;
 }
 
+#page_account_files #file_filter_form {
+  display: none;
+}
+
 /* ***** CSS SODEXO SECUTIX RWC ***** */
 
 /* ////////////////////////*/
