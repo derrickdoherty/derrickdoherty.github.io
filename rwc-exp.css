@@ -348,11 +348,6 @@ background-color: #bf0091;
     font-size: 14px;
   }
 
-  #page_selection_eventDate .performance_SPORTING_EVENT .team .name {
-    font-size: 16px;
-    line-height: 16px;
-  }
-
   #page_selection_eventDate .performances_container li {
     padding-bottom: 0px;       
   }
@@ -457,6 +452,10 @@ background-color: #bf0091;
 }
 
 
+#page_selection_eventDate .performance_SPORTING_EVENT .team .name {
+  font-size: 16px;
+  line-height: 16px;
+}
 
 #page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .subtitle {
   display: block;
