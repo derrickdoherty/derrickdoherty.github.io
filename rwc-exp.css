@@ -1,3 +1,7 @@
+:root {
+  --body-font-size: 16px;
+}
+
 @font-face {
   font-family: "RWC";
   src: url("https://s3.eu-central-1.amazonaws.com/content-secutix-com/SODEXO/fonts/RWC-Bold.ttf") format("truetype");
@@ -68,7 +72,7 @@
 
 
 body {
-  font-size: 16px;
+  font-size: var(--body-font-size);
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
 }
@@ -932,6 +936,10 @@ div#page_checkout_orderSummary td.seat {
 
 #page_checkout_orderSummary .seat_category_section .widget_SPORTING_EVENT {
   display:none;
+}
+
+#page_checkout_orderSummary .seat_category_section .event_header {
+  font-size: var(--body-font-size);
 }
 
 #page_checkout_orderSummary #shipment_fee_ticket {
