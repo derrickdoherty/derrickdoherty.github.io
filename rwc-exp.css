@@ -205,22 +205,13 @@ border-top: none;
 #continue_button,
 #book,
 #buyNow,
-.performance_selector
-  .time_selection
-  .rs-carousel-inactive
-  .sliding_item
-  .button.selected
-  a,
-.performance_selector
-  .time_selection
-  .rs-carousel-runner
-  .sliding_item
-  .button.selected
-a,
+.performance_selector .time_selection .rs-carousel-inactive .sliding_item .button.selected a,
+.performance_selector .time_selection .rs-carousel-runner .sliding_item .button.selected a,
 .button a {
   background-color: #BF0091!important;
   color: #ffffff!important;
   border-radius: 10px;
+  font-size: 16px;
 }
 
 
