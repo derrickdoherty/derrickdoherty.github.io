@@ -175,12 +175,6 @@ border-top: 1px solid #e6e6e6;
 .semantic-no-styling-no-display.date {
   text-align: center;
   display: block;
-  font-size: 18px; 
-}
-
-.semantic-no-styling-no-display.date .time,
-.semantic-no-styling-no-display.date .location {
-  font-size: 18px; 
 }
 
  .product_description_header {
@@ -331,6 +325,12 @@ background-color: #bf0091;
   background: transparent;
 }
 
+#page_selection_eventSeat .product_right_img .date,
+#page_selection_eventSeat .product_right_img .time,
+#page_selection_eventSeat .product_right_img .location {
+  font-size: 18px; 
+}
+
 /* PRODUCT RESPONSIVE*/
 @media screen and (max-width: 990px) {
   #page_selection_eventSeat .product_description_header,
@@ -474,6 +474,8 @@ background-color: #bf0091;
 #page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .round_kind::before {
   content: none;
 }
+
+
 
 #page_selection_eventSeat p.semantic-no-styling-no-display {
 display: block;
