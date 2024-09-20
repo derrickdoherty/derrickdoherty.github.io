@@ -172,9 +172,10 @@ border:none;
 border-top: 1px solid #e6e6e6;
 }
 
- .semantic-no-styling-no-display.date {
-text-align: center;
+.semantic-no-styling-no-display.date {
+  text-align: center;
   display: block;
+  font-size: 18px; 
 }
 
  .product_description_header {
