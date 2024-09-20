@@ -584,6 +584,7 @@ font-weight: bold;
 #page_account_tickets #secondary_content_navigation ul,
 #page_account_files #secondary_content_navigation ul,
 #page_account_file #secondary_content_navigation ul,
+#page_account_password #secondary_content_navigation ul,
 #page_account_editPersonalDetails #secondary_content_navigation ul {
   list-style: none;
 }
@@ -592,6 +593,7 @@ font-weight: bold;
 #page_account_tickets #secondary_content_navigation ul a,
 #page_account_files #secondary_content_navigation ul a,
 #page_account_file #secondary_content_navigation ul a,
+#page_account_password #secondary_content_navigation ul a,
 #page_account_editPersonalDetails #secondary_content_navigation ul a {
   padding: 0px 10px !important;
 }
@@ -600,6 +602,7 @@ font-weight: bold;
 #page_account_tickets #secondary_content_navigation ul a:hover,
 #page_account_files #secondary_content_navigation ul a:hover,
 #page_account_file #secondary_content_navigation ul a:hover,
+#page_account_password #secondary_content_navigation ula:hover,
 #page_account_editPersonalDetails #secondary_content_navigation ul a:hover {
   background-color: white !important;
   text-decoration: underline !important;
@@ -610,6 +613,7 @@ font-weight: bold;
 #page_account_tickets #secondary_content_navigation ul li.tickets_menu_add_products,
 #page_account_files #secondary_content_navigation ul li.tickets_menu_add_products,
 #page_account_file #secondary_content_navigation ul li.tickets_menu_add_products,
+#page_account_password #secondary_content_navigation ul li.tickets_menu_add_products,
 #page_account_editPersonalDetails #secondary_content_navigation ul li.tickets_menu_add_products {
   padding-bottom: 20px;
   border-bottom: 1px solid #bf0091;
@@ -619,6 +623,7 @@ font-weight: bold;
 #page_account_tickets #secondary_content_navigation .tickets_menu_logout,
 #page_account_files #secondary_content_navigation .tickets_menu_logout,
 #page_account_file #secondary_content_navigation .tickets_menu_logout,
+#page_account_password #secondary_content_navigation .tickets_menu_logou
 #page_account_editPersonalDetails #secondary_content_navigation .tickets_menu_logout {
   margin-top: 20px !important;
   width: auto !important;
@@ -630,6 +635,7 @@ font-weight: bold;
 #page_account_tickets #secondary_content_navigation .tickets_menu_logout:hover,
 #page_account_files #secondary_content_navigation .tickets_menu_logout:hover,
 #page_account_file #secondary_content_navigation .tickets_menu_logout:hover,
+#page_account_password #secondary_content_navigation .tickets_menu_logout:hover,
 #page_account_editPersonalDetails #secondary_content_navigation .tickets_menu_logout:hover {
   background-color: white;
 }
@@ -638,6 +644,7 @@ font-weight: bold;
 #page_account_tickets #secondary_content_navigation .tickets_menu_logout a,
 #page_account_files #secondary_content_navigation .tickets_menu_logout a,
 #page_account_file #secondary_content_navigation .tickets_menu_logout a,
+#page_account_password #secondary_content_navigation .tickets_menu_logout a,
 #page_account_editPersonalDetails #secondary_content_navigation .tickets_menu_logout a {
   height: auto !important;
   border-radius: 10px
@@ -647,6 +654,7 @@ font-weight: bold;
 #page_account_tickets #secondary_content_navigation .tickets_menu_logout a .text,
 #page_account_files #secondary_content_navigation .tickets_menu_logout a .text,
 #page_account_file #secondary_content_navigation .tickets_menu_logout a .text,
+#page_account_password #secondary_content_navigation .tickets_menu_logout a .text,
 #page_account_editPersonalDetails #secondary_content_navigation .tickets_menu_logout a .text {
   color: white;
   padding: 10px 35px;
