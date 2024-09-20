@@ -327,7 +327,8 @@ background-color: #bf0091;
 
 #page_selection_eventSeat .product_right_img .date,
 #page_selection_eventSeat .product_right_img .time,
-#page_selection_eventSeat .product_right_img .location {
+#page_selection_eventSeat .product_right_img .location,
+#page_selection_eventSeat .product_right_img .location .site{
   font-size: 18px; 
 }
 
