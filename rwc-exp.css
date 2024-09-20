@@ -506,6 +506,10 @@ display: block;
 
 
 /** CHECKOUT PAGES **/
+#page_cart_reservation .performance_SPORTING_EVENT .team .name {
+  font-size: var(--body-font-size);
+}
+
 #page_checkout_orderSummary #main_content_summary_products .message {
   background: #f6f6f6;
 }
