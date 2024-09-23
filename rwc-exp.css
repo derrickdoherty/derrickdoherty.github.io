@@ -503,9 +503,7 @@ display: block;
 
 
 
-#page_checkout_payment .payment_method_list.payment_method_chooser.main_content_payment {
-  flex-direction:row-reverse!important;
-}
+
 
 /*#page_account_register #account_type_selection {
   display: none;
@@ -530,6 +528,21 @@ display: block;
 
 #checkout_bar .symbol {
   background-color: #BF0091;
+}
+
+
+#page_checkout_payment .payment_method_list.payment_method_chooser.main_content_payment {
+  flex-direction:row-reverse!important;
+}
+
+#page_checkout_payment #main_content_payment_saved_cards .content_title {
+  background: url("https://sdo-p-001.sitecorecontenthub.cloud/api/public/content/f1fdbec…?v=c4173b87") no-repeat;
+  background-size: contain;
+}
+
+#page_checkout_payment #main_content_payment_saved_cards .content_title .title {
+  background: transparent;
+  padding-top: 30%;
 }
 
 
