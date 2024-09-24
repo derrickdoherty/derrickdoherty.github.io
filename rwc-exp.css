@@ -460,6 +460,22 @@ background-color: #bf0091;
   line-height: 16px;
 }
 
+
+/** change "vs" to "&" for Bronze Final & Final match **/
+#page_selection_eventSeat #prod_10228837228428 .vs {
+  visibility: hidden;
+}
+
+#page_selection_eventSeat #prod_10228837228428 .vs::after {
+  content: "&";
+  visibility: visible;
+  position: relative;
+  left: -10px;
+  font-size: 22px;
+}
+
+
+
 #page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .subtitle {
   display: block;
   font-weight: bold;
@@ -476,8 +492,6 @@ background-color: #bf0091;
 #page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .round_kind::before {
   content: none;
 }
-
-
 
 #page_selection_eventSeat p.semantic-no-styling-no-display {
 display: block;
