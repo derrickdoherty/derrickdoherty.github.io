@@ -694,6 +694,10 @@ font-weight: bold;
   display: none;
 }
 
+#page_account_file .widget_SPORTING_EVENT {
+  display: none;
+}
+
 /* ***** CSS SODEXO SECUTIX RWC ***** */
 
 /* ////////////////////////*/
@@ -881,9 +885,6 @@ div#page_account_file tr.subtotal {
   display: none;
 }
 
-div#page_account_file .event_header {
-  display: none;
-}
 
 /* Remove Basket Summary */
 
@@ -1043,9 +1044,6 @@ div#page_account_file tr.subtotal {
   display: none;
 }
 
-div#page_account_file .event_header {
-  display: none;
-}
 
 /* Remove Basket Summary */
 
@@ -1321,9 +1319,6 @@ div#page_account_file tr.subtotal {
     display: none;
 }
 
-div#page_account_file .event_header {
-    display: none;
-}
 
 /* Remove Basket Summary */
 
@@ -1335,10 +1330,6 @@ p.semantic-no-styling-no-display.cart_content {
 
 div#page_cart_shoppingCart .event_header {
     display: none;
-}
-
-div#page_cart_reservation .event_header {
-    /*display: none;*/
 }
 
 div#page_cart_reservation .widget_SPORTING_EVENT {
