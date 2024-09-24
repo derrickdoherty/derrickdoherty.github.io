@@ -467,11 +467,11 @@ background-color: #bf0091;
 }
 
 #page_selection_eventSeat #prod_10228837228428 .vs::after {
-  content: "&";
+  content: "|";
   visibility: visible;
   position: relative;
   left: -10px;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 
