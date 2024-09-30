@@ -1,3 +1,1436 @@
-#page-oha {
-  background-color: #FF0000;
+:root {
+  --body-font-size: 16px;
 }
+
+@font-face {
+  font-family: "RWC";
+  src: url("https://s3.eu-central-1.amazonaws.com/content-secutix-com/SODEXO/fonts/RWC-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RWC";
+  src: url("https://content.secutix.com/SODEXO/fonts/RWC-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'rwcbold';
+    src: url('https://experiences.rugbyworldcup.com/wp-content/themes/toast/fonts/rwc_bold-webfont.woff2') format('woff2'),
+         url('https://experiences.rugbyworldcup.com/wp-content/themes/toast/fonts/rwc_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rwcregular';
+    src: url('https://experiences.rugbyworldcup.com/wp-content/themes/toast/fonts/rwc_regular-webfont.woff2') format('woff2'),
+         url('https://experiences.rugbyworldcup.com/wp-content/themes/toast/fonts/rwc_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Fp2ywxg089UriCZa4ET-DNl0.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Fp2ywxg089UriCZa4Hz-D.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Hp2ywxg089UriCZ2IHSeH.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Hp2ywxg089UriCZOIHQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+body {
+  font-size: var(--body-font-size);
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+ .product_right_img {
+  background-color: #f6f6f6;
+  }
+
+.product_title_container {
+  font-family: rwc;
+  font-weight: bold;
+}
+
+   #page {
+    background-color: #F6F6F6;
+  }
+  
+
+ .secondary_content{
+border-radius: 12px;
+border:none;
+overflow: hidden;
+}
+
+ #secondary_content_cart{
+Border:none;
+}
+
+ .filters{
+background-color : #ffffff;
+border-bottom:none;
+border-radius: 12px;
+  
+}
+
+.main_content > .content_title > .title {
+  background: #f6f6f6;
+  border-bottom: none;      
+}
+
+.main_content > .content_title h2 {
+  font-family: rwc;
+}
+
+
+#secondary_content_general_info li {
+  list-style: none:
+}
+
+#secondary_content_general_info .content_title {
+  display:none;
+}
+        
+a:link, a:active, a:visited {
+  color: #BF0091!important;
+}
+
+ .group_sub_title  {
+margin:0;
+padding:20px 45px 20px 45px; 
+background-color: #f6f6f6;
+}
+
+
+ #performance_chooser {
+  border:none;
+}
+
+.product_right_img .title {
+  text-align: center;
+  width: 100%;
+  line-height: 60px;
+}
+
+ .product_right_img .product_image_container {
+Display : none;}
+
+
+ .group_sub_title.title4 {
+  font-family: rwc;      
+}
+
+ #performanceSelectionInstruction {
+  background-color: #f6f6f6;
+}
+
+ .performances_monthly_grouped {
+border:none;
+}
+
+ #2025-09 {
+border-top: 1px solid #e6e6e6;
+}
+
+.semantic-no-styling-no-display.date {
+  text-align: center;
+  display: block;
+}
+
+ .product_description_header {
+  background-color: #F6F6F6;
+}
+
+.performances_container .group_sub_title {
+    padding: 1em 45px 1em 45px;
+    margin:0;
+  }
+
+
+
+/* MARGIN PAIEMENT METHOD & GENERAL INFO */
+
+.secondary_content > .content_title > .title {
+  margin: 15px 0px 0px 0px;
+  border-radius: 12px 12px 0 0;
+}
+
+#close_menu_overlay + .secondary_content {
+  border-top: none;
+  margin-top: 0;
+}
+
+#secondary_content_countdown + .secondary_content {
+border-top: none;
+}
+
+/* BOUTON */
+#buy_order,
+#continue_button,
+#book,
+#buyNow,
+.performance_selector .time_selection .rs-carousel-inactive .sliding_item .button.selected a,
+.performance_selector .time_selection .rs-carousel-runner .sliding_item .button.selected a,
+.button a {
+  background-color: #BF0091!important;
+  color: #ffffff!important;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+
+
+#page_selection_eventSeat #book {
+  background: #BF0091;
+}
+
+
+
+
+
+
+/* BUTTON SUMMARY */
+
+ body.rwd #page_checkout_orderSummary .button.pay a {
+    background-color: #BF0091;
+    color: #fff !important;
+  }
+
+  body.rwd #page_checkout_orderSummary .button.pay.disabled a {
+background: silver!important;
+  border-color: #b0b0b0!important;
+  }
+
+body.rwd #page_account_home .button a {
+color: #fff!important;
+background-color: #bf0091;
+}
+
+
+/************************/
+/** GENERAL RESPONSIVE **/
+/************************/
+@media screen and (max-width: 990px) {
+  .secondary_content.collapsible.alternative_content .title_container {
+    padding: 0.75em 30px !important;
+    background-size: 12px !important;
+    background-position: right 15px center !important; 
+  }
+
+        
+  .secondary_content.collapsible.alternative_content>input[type=checkbox]:checked ~ .collapsible_header>.title {
+    background-color: #FFF !important;
+    color: #000 !important;
+  }
+
+   .secondary_content #secondary_content_payment_modes #collapsiblePanel_secondary_content_payment_modes ul {
+      justify-content: center;
+   }
+
+    .secondary_content ul {
+      list-style-type: none !important;
+      justify-content: center !important;
+    }
+}
+
+
+/*******************/
+/** GENERAL PAGES **/
+/*******************/
+
+#page_cart_reservation #main_content_reservation,
+#page_checkout_orderSummary #main_content_summary_products,
+#page_cart_emptyShoppingCart #main_content_cart,
+#page_account_tickets #main_content_tickets {
+  border: none;
+}
+
+#page_cart_reservation #collapsiblePanel_main_content_reservation,
+#page_cart_emptyShoppingCart #collapsiblePanel_main_content_cart,
+#page_account_tickets #collapsiblePanel_main_content_tickets {
+  border: 1px solid #e6e6e6;
+}
+
+
+
+
+/*******************/
+/** PRODUCT PAGES **/
+/*******************/
+#page_selection_eventSeat .product_description_header,
+#page_selection_eventDate .product_description_header {
+  background-color: #F6F6F6;
+  /* background-image: url(https://sdo-q-001.sitecorecontenthub.cloud/api/public/content/756c9689ffbd43c3bc11a2b313d077eb?v=beac538f); */
+  background-image: url(https://sdo-p-001.sitecorecontenthub.cloud/api/public/content/ec8dddd47c0c4c2386ebdf7b7feb02ce?v=f7a13508);
+  background-repeat: repeat-y;
+  /* background-size: cover; */
+  background-size: 100% 100%;
+  background-position: center;
+  min-height: 500px;
+}
+
+#page_selection_eventSeat .product_description_header .content_element>.content,
+#page_selection_eventDate .product_description_header .content_element>.content {
+  background: transparent;
+}
+         
+#page_selection_eventSeat .product_right_img,
+#page_selection_eventDate .product_right_img {
+  /* background-color: #F6F6F6; */
+  border: none;
+  position: relative;
+  /* background-image: url(https://sdo-p-001.sitecorecontenthub.cloud/api/public/content/8cf5d09c82b14ef0bedd1d5fbd2ec114?v=601fa7e4); */
+  background-size: cover; 
+  background-repeat: round;
+  background: transparent;
+}
+
+#page_selection_eventDate .product_right_img .date,
+#page_selection_eventSeat .product_right_img .date,
+#page_selection_eventSeat .product_right_img .time,
+#page_selection_eventSeat .product_right_img .location,
+#page_selection_eventSeat .product_right_img .location .site {
+  font-size: 18px; 
+}
+
+/* PRODUCT RESPONSIVE*/
+@media screen and (max-width: 990px) {
+  #page_selection_eventSeat .product_description_header,
+  #page_selection_eventDate .product_description_header {
+    min-height: 400px
+  }
+
+  #page_selection_eventSeat .product_description_header .content_element>.content,
+  #page_selection_eventDate .product_description_header .content_element>.content {
+    padding: 0px !important;
+  }
+
+  #page_selection_eventDate .performance_SPORTING_EVENT .perf_info {
+    order: 2;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  #page_selection_eventDate .performances_container li {
+    padding-bottom: 0px;       
+  }
+
+  #page_selection_eventDate .performance_SPORTING_EVENT .perf_info .date_time {
+    margin-top: 20px;
+  }
+        
+  #page_selection_eventDate .performance_SPORTING_EVENT .teams {
+    background: #FFFFFF;
+    top: 10px;
+    order: 1;
+    width: 100%;
+    position: initial;
+  }
+
+  #page_selection_eventDate .performance_SPORTING_EVENT .buttons_availability {
+    order: 3;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  #page_selection_eventDate .performance_SPORTING_EVENT .buttons_availability .ticket_availability {
+    display: none;
+  }
+        
+  #page_selection_eventDate .performance_SPORTING_EVENT .buttons_availability .from {
+    margin-left: 6%;
+    padding-left: 10px;
+  }
+        
+        
+  #page_selection_eventDate .performance_SPORTING_EVENT .buttons {
+    margin: 0.75em 1em 0 1em !important;
+  }
+
+  #page_selection_eventSeat .stx_tfooter .stx_tfooter_buttons_container {
+    justify-content: center;
+    margin-top: 2em;
+  }
+       
+}
+
+@media screen and (max-width: 800px) {
+  #page_selection_eventSeat .product_description_header,
+  #page_selection_eventDate .product_description_header {
+    background-image: url(https://sdo-p-001.sitecorecontenthub.cloud/api/public/content/79b483b378ab4a82bd097e621320dc47?v=0fe4b61a);
+    min-height: 400px;
+    display: flex;
+  }
+
+  #page_selection_eventSeat .product_description_header #product_header,
+  #page_selection_eventDate .product_description_header #product_header {
+    margin: auto;
+    padding-bottom: 8em;
+  }
+
+  #page_selection_eventDate .product_right_img {
+    padding-top: 50px;
+  }
+}
+
+
+#page_selection_eventDate .product_right_img {
+  padding-top: 100px;
+}
+         
+#page_selection_eventDate .performances_sub_container {
+  background-color: #F6F6F6;
+  padding-top: 20px;
+}
+
+#page_selection_eventDate .performance_SPORTING_EVENT {
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+#page_selection_eventDate .performance_SPORTING_EVENT .perf_info .match_round {
+    display: none;
+  }
+
+/* #page_selection_eventDate .performance_SPORTING_EVENT .team .name {
+  font-size: 16px;
+  line-height: 16px;
+} */
+
+#page_selection_eventDate .performance_SPORTING_EVENT .team .image_container {
+  height: 40px;
+}
+
+#page_selection_eventDate .performance_SPORTING_EVENT .team.home .image_container {
+  margin-left: 10px;
+}
+
+#page_selection_eventDate .performance_SPORTING_EVENT .team.opposite .image_container {
+  margin-right: 10px;
+}
+
+#page_selection_eventDate .performance_SPORTING_EVENT .team img {
+  height: 40px;
+  max-width: 50px;
+}
+
+
+#page_selection_eventDate .performance_SPORTING_EVENT .team .name {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+
+/** change "vs" to "&" for Bronze Final & Final match **/
+#page_selection_eventSeat #prod_10228837228428 .vs {
+  visibility: hidden;
+}
+
+#page_selection_eventSeat #prod_10228837228428 .vs::after {
+  content: "|";
+  visibility: visible;
+  position: relative;
+  left: -10px;
+  font-size: 30px;
+}
+
+
+
+#page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .subtitle {
+  display: block;
+  font-weight: bold;
+  color: #262626;
+  text-align: center;
+  font-family: RWC;
+}
+
+#page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .round_kind {
+  display: block;
+  text-align: center;
+}
+
+#page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .round_kind::before {
+  content: none;
+}
+
+#page_selection_eventSeat p.semantic-no-styling-no-display {
+display: block;
+  text-align: center;
+}
+
+#page_selection_eventSeat #main_content_seat_selection {
+  border: none;
+}
+
+#page_selection_eventSeat #collapsiblePanel_main_content_seat_selection {
+  border: 1px solid #e6e6e6;
+}
+
+#page_selection_eventSeat #event_form .legend {
+  display:none;
+}
+
+#page_selection_eventSeat #event_form .tariff {
+  display: table-cell;
+}
+
+
+
+
+
+
+/*#page_account_register #account_type_selection {
+  display: none;
+}*/
+
+
+
+
+
+/** CHECKOUT PAGES **/
+#page_cart_reservation .performance_SPORTING_EVENT .team .name {
+  font-size: var(--body-font-size);
+}
+
+#page_checkout_orderSummary #main_content_summary_products .message {
+  background: #f6f6f6;
+}
+
+#page_checkout_orderSummary .delivery_mode_delay {
+  display: none;
+}
+
+#checkout_bar .symbol {
+  background-color: #BF0091;
+}
+
+
+#page_checkout_payment .payment_method_list.payment_method_chooser.main_content_payment {
+  flex-direction:row-reverse!important;
+}
+
+#page_checkout_payment #main_content_payment_saved_cards .content_title {
+  background: url("https://sdo-p-001.sitecorecontenthub.cloud/api/public/content/f1fdbecfda2845d78edef2dfba93a0db?v=c4173b87") no-repeat;
+  background-size: contain;
+}
+
+#page_checkout_payment #main_content_payment_saved_cards .content_title .title {
+  background: transparent;
+  padding-top: 30%;
+}
+
+
+/** ACCOUNT PAGES  **/
+
+#page_account_tickets .product_right_img {
+  background-color: #F6F6F6;
+  border: none;
+  position: relative;
+  background-image: url(https://sdo-p-001.sitecorecontenthub.cloud/api/public/content/8cf5d09c82b14ef0bedd1d5fbd2ec114?v=601fa7e4);
+  background-size: cover; 
+  background-repeat: round;
+  padding: 40px 15%;
+}
+
+#page_account_tickets .print_options {
+  display: none;
+}
+
+/* ACCOUNT MENU */
+
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #secondary_content_navigation .content_title > .title {
+background-color: #fff;
+}
+
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #secondary_content_navigation .content_title .title .main_title {
+color: #000000;
+font-weight: bold;
+}
+
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, .openable.open {
+color: black !important;
+font-weight: bold;
+}
+
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #content #secondary_content_navigation .content_element .content .tickets_menu_logout .text {
+/*color: #BF0091; */
+}
+
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #secondary_content_navigation .content_element > .content {
+  background-color: #fff;
+}
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #content #secondary_content_navigation .content_element .content > ul > li:not(:first-child) > a {
+  text-transform: none;  
+}
+
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #content #secondary_content_navigation .content_element .content ul li.selected a {
+  background-color: #fff;
+}
+
+#page_account_home #secondary_content_navigation ul,
+#page_account_tickets #secondary_content_navigation ul,
+#page_account_files #secondary_content_navigation ul,
+#page_account_file #secondary_content_navigation ul,
+#page_account_password #secondary_content_navigation ul,
+#page_account_editPersonalDetails #secondary_content_navigation ul {
+  list-style: none;
+}
+
+#page_account_home #secondary_content_navigation ul a,
+#page_account_tickets #secondary_content_navigation ul a,
+#page_account_files #secondary_content_navigation ul a,
+#page_account_file #secondary_content_navigation ul a,
+#page_account_password #secondary_content_navigation ul a,
+#page_account_editPersonalDetails #secondary_content_navigation ul a {
+  padding: 0px 10px !important;
+}
+
+#page_account_home #secondary_content_navigation ul a:hover,
+#page_account_tickets #secondary_content_navigation ul a:hover,
+#page_account_files #secondary_content_navigation ul a:hover,
+#page_account_file #secondary_content_navigation ul a:hover,
+#page_account_password #secondary_content_navigation ula:hover,
+#page_account_editPersonalDetails #secondary_content_navigation ul a:hover {
+  background-color: white !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+}
+
+#page_account_home #secondary_content_navigation ul li.tickets_menu_add_products,
+#page_account_tickets #secondary_content_navigation ul li.tickets_menu_add_products,
+#page_account_files #secondary_content_navigation ul li.tickets_menu_add_products,
+#page_account_file #secondary_content_navigation ul li.tickets_menu_add_products,
+#page_account_password #secondary_content_navigation ul li.tickets_menu_add_products,
+#page_account_editPersonalDetails #secondary_content_navigation ul li.tickets_menu_add_products {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #bf0091;
+}
+
+#page_account_home #secondary_content_navigation .tickets_menu_logout,
+#page_account_tickets #secondary_content_navigation .tickets_menu_logout,
+#page_account_files #secondary_content_navigation .tickets_menu_logout,
+#page_account_file #secondary_content_navigation .tickets_menu_logout,
+#page_account_password #secondary_content_navigation .tickets_menu_logout,
+#page_account_editPersonalDetails #secondary_content_navigation .tickets_menu_logout {
+  margin-top: 20px !important;
+  width: auto !important;
+  display: inline-block !important;
+  float: none !important;
+}
+
+#page_account_home #secondary_content_navigation .tickets_menu_logout:hover,
+#page_account_tickets #secondary_content_navigation .tickets_menu_logout:hover,
+#page_account_files #secondary_content_navigation .tickets_menu_logout:hover,
+#page_account_file #secondary_content_navigation .tickets_menu_logout:hover,
+#page_account_password #secondary_content_navigation .tickets_menu_logout:hover,
+#page_account_editPersonalDetails #secondary_content_navigation .tickets_menu_logout:hover {
+  background-color: white !important;
+}
+
+#page_account_home #secondary_content_navigation .tickets_menu_logout a,
+#page_account_tickets #secondary_content_navigation .tickets_menu_logout a,
+#page_account_files #secondary_content_navigation .tickets_menu_logout a,
+#page_account_file #secondary_content_navigation .tickets_menu_logout a,
+#page_account_password #secondary_content_navigation .tickets_menu_logout a,
+#page_account_editPersonalDetails #secondary_content_navigation .tickets_menu_logout a {
+  height: auto !important;
+  border-radius: 10px
+}
+
+#page_account_home #secondary_content_navigation .tickets_menu_logout a .text,
+#page_account_tickets #secondary_content_navigation .tickets_menu_logout a .text,
+#page_account_files #secondary_content_navigation .tickets_menu_logout a .text,
+#page_account_file #secondary_content_navigation .tickets_menu_logout a .text,
+#page_account_password #secondary_content_navigation .tickets_menu_logout a .text,
+#page_account_editPersonalDetails #secondary_content_navigation .tickets_menu_logout a .text {
+  color: white;
+  padding: 10px 35px;
+}
+         
+
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, .secondary_content > .content_title > .title {
+  margin: 0px!important;
+}
+
+#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, .menu_experience_vouchers {
+  border: none!important;
+}
+
+#page_account_tickets #ticket_filter_form {
+  display: none;
+}
+
+#page_account_files #file_filter_form {
+  display: none;
+}
+
+#page_account_file #collapsiblePanel_main_content_file_summary .sales_channel {
+  display: none;
+}
+
+#page_account_file .widget_SPORTING_EVENT {
+  display: none;
+}
+
+/* ***** CSS SODEXO SECUTIX RWC ***** */
+
+/* ////////////////////////*/
+/* ** 1. Landing Page  ** */
+/* //////////////////////*/
+
+/* button "BUY" color : yellow/gold brand */
+.dcKbOb {
+  background-color: #a57e00;
+}
+
+/* button "SEE ALL" color : yellow/gold brand */
+.bgKsaG {
+  background-color: #a57e00;
+}
+
+/* ///////////////////////////////*/
+/* ** 2. Match Selection Page ** */
+/* /////////////////////////////*/
+
+/* date in bold */
+p.semantic-no-styling-no-display,
+span.semantic-no-styling-no-display {
+  font-weight: bold;
+}
+
+/* stadium in bold */
+.site {
+  font-weight: bold;
+}
+
+/* /////////////////////////////////*/
+/* ** 4. Package Selection Page ** */
+/* ///////////////////////////////*/
+
+/* button "time select" color : yellow/gold brand */
+.performance_selector
+  .time_selection
+  .rs-carousel-inactive
+  .sliding_item
+  .button.selected
+  a,
+.performance_selector
+  .time_selection
+  .rs-carousel-runner
+  .sliding_item
+  .button.selected
+  a {
+  background-color: #a57e00;
+}
+
+/* button "add to basket" color : yellow/gold brand */
+@media screen and (max-width: 1399px) {
+  body.rwd .button a {
+    background-color: #a57e00;
+  }
+}
+/* hoover */
+@media screen and (max-width: 1399px) {
+  body.rwd .button a:hover {
+    background: #a57e00;
+  }
+}
+
+/* ////////////////////////////////*/
+/* ** 5. Items added to Basket ** */
+/* //////////////////////////////*/
+
+/* remove tick */
+/* .message.success>.content>.icon {
+    display: none;
+} */
+
+/* here to change rewind symbol */
+/* .alternative_button.rewind .symbol {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMnB4IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEycHgiIHg9IjBweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeT0iMHB4Ij4KPHBhdGggZD0iTSA0NDYsMTEzLjU5NyA0NDYsMzk4LjQwNCAyNDAsMjU2LjAwMSA0NDYsMTEzLjU5NyBaIE0gMzQsMjU2LjAwMSAyNDAsMzk4LjQwMyAyNDAsMTEzLjU5NyAzNCwyNTYuMDAxIFoiIGZpbGw9IiNiZjAwOTEiIGlkPSJyZXdpbmQtaWNvbiIvPgo8L3N2Zz4=);
+} */
+
+/* "CONTINUE SHOPPING" color : yellow/gold brand */
+.alternative_button a {
+  color: #a57e00;
+}
+
+/* ////////////////////////////////////////*/
+/* ** 6. Buy Now – Customer Login Page ** */
+/* //////////////////////////////////////*/
+
+/* center the title "Welcome to RWC25 Premium Experiences" */
+.main_content_group > .content_title > .title .main_title {
+  text-align: center;
+}
+
+/* ////////////////////////////*/
+/* ** 7. Create an account ** */
+/* //////////////////////////*/
+
+/* link "the data privacy policy" color : yellow/gold brand is same class "add to basket" fix in part 4 */
+a:link,
+a:active,
+a:visited {
+  color: #a57e00;
+}
+
+.alternative_button.back .text {
+  color: #a57e00;
+}
+
+/* here to change back symbol */
+/* .alternative_button.back .symbol {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMnB4IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEycHgiIHg9IjBweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeT0iMHB4Ij4KCjxwb2x5Z29uIGZpbGw9IiNiZjAwOTEiIGlkPSJhcnJvdy0yNS1pY29uIiBwb2ludHM9IjE0Mi4zMzIsMTA0Ljg4NiAxOTcuNDgsNTAgNDAyLjUsMjU2IDE5Ny40OCw0NjIgMTQyLjMzMiw0MDcuMTEzIDI5Mi43MjcsMjU2ICIgdHJhbnNmb3JtPSJtYXRyaXgoLTEsMCwwLDEsNTEyLDApIi8+Cgo8L3N2Zz4=);
+} */
+
+/* ////////////////////////////////////////////////////*/
+/* ** 11. Payment page – Select Visa or Mastercard ** */
+/* //////////////////////////////////////////////////*/
+
+/* remove mandatory field */
+/*#main_content_payment_saved_cards.main_content>.content_element>.content .message {
+    display: none;
+}*/
+
+/* ////////////////////////////////////////////////////////////////////*/
+/* ** 12. Profile and Payment Methods – Edit your personal details ** */
+/* //////////////////////////////////////////////////////////////////*/
+
+/* Remove internet B2C */
+.created_from {
+  display: none;
+}
+
+/* Make whole account deletion area, smaller and more discrete, */
+#account_remove_btn a {
+  background-color: grey;
+  font-size: 11px;
+  height: 25px;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 1399px) {
+  body.rwd .button a:hover {
+    background: #a57e00;
+  }
+}
+
+/* ////////////////////////////*/
+/* ** 13. Other ** */
+/* //////////////////////////*/
+
+/* Remove vs */
+
+p#teams_Final span.team.separator {
+  visibility: hidden;
+}
+
+p#teams_Final span.team.separator:after {
+  position: relative;
+  content: "&";
+  visibility: visible;
+  left: -5px;
+}
+
+/* Remove season */
+
+div#page_account_tickets span.season {
+  display: none !important;
+}
+
+/* Remove seat details */
+
+div#page_account_tickets span.seat {
+  display: none;
+}
+
+/* Remove Details File Summary */
+
+div#page_account_file td.seat {
+  display: none;
+}
+
+div#page_account_file td.unit_price {
+  display: none;
+}
+
+div#page_account_file tr.subtotal {
+  display: none;
+}
+
+
+/* Remove Basket Summary */
+
+p.semantic-no-styling-no-display.cart_content {
+  display: none !important;
+}
+
+/* Remove Package Amount */
+
+.reservation_selected_quantity {
+  display: none;
+}
+
+/* Remove Package Line Info */
+
+.package_line_info {
+  display: none;
+}
+
+/* Remove Package Line Content */
+
+.total_package_content {
+  display: none;
+}
+
+/* Remove Table Columns */
+
+div#page_selection_package th.subtotal {
+  display: none;
+}
+
+div#page_selection_package td.subtotal {
+  display: none;
+}
+
+div#page_selection_package th.unit_price {
+  display: none;
+}
+
+div#page_selection_package td.unit_price {
+  display: none;
+}
+
+div#page_selection_package th.area.stx_normal_colspan {
+  display: none;
+}
+
+div#page_selection_package td.area.stx_normal_colspan {
+  display: none;
+}
+
+
+/* Remove Columns from Basket */
+
+div#page_cart_reservation td.unit_price {
+  display: none;
+}
+
+div#page_cart_reservation td.seat {
+  display: none;
+}
+
+div#page_cart_shoppingCart td.unit_price {
+  display: none;
+}
+
+div#page_cart_shoppingCart td.seat {
+  display: none;
+}
+
+/* Remove Columns from Summary */
+
+div#page_checkout_orderSummary td.unit_price {
+  display: none;
+}
+
+div#page_checkout_orderSummary td.seat {
+  display: none;
+}
+
+#page_checkout_orderSummary .alternative_button.plus,
+#page_checkout_orderSummary .alternative_button.less {
+  display: none;
+}
+
+#page_checkout_orderSummary .seat_category_section .widget_SPORTING_EVENT {
+  display:none;
+}
+
+#page_checkout_orderSummary .seat_category_section .event_header {
+  font-size: var(--body-font-size);
+}
+
+#page_checkout_orderSummary #shipment_fee_ticket {
+  display: none;
+}
+
+
+/* Remove See All button */
+
+.sc-cooIXK.stx-Catalog-seeAllButton.iuPCdo {
+  display: none;
+}
+
+/* Remove Preference Column From Table */
+
+td.area.stx_normal_colspan {
+  display: none;
+}
+
+th.area.stx_normal_colspan {
+  display: none;
+}
+
+/* Remove Grey Box for Logo */
+
+.match_logo_wrapper {
+  display: none;
+}         
+
+/* Remove vs */
+
+p#teams_Final span.team.separator {
+  visibility: hidden;
+}
+
+p#teams_Final span.team.separator:after {
+  position: relative;
+  content: "&";
+  visibility: visible;
+  left: -5px;
+}
+
+/* Remove season */
+
+div#page_account_tickets span.season {
+  display: none !important;
+}
+
+/* Remove seat details */
+
+div#page_account_tickets span.seat {
+  display: none;
+}
+
+/* Remove Details File Summary */
+
+div#page_account_file td.seat {
+  display: none;
+}
+
+div#page_account_file td.unit_price {
+  display: none;
+}
+
+div#page_account_file tr.subtotal {
+  display: none;
+}
+
+
+/* Remove Basket Summary */
+
+p.semantic-no-styling-no-display.cart_content {
+  display: none !important;
+}
+
+/* Remove Package Amount */
+
+.reservation_selected_quantity {
+  display: none;
+}
+
+/* Remove Package Line Info */
+
+.package_line_info {
+  display: none;
+}
+
+/* Remove Package Line Content */
+
+.total_package_content {
+  display: none;
+}
+
+/* Remove Table Columns */
+
+div#page_selection_package th.subtotal {
+  display: none;
+}
+
+div#page_selection_package td.subtotal {
+  display: none;
+}
+
+div#page_selection_package th.unit_price {
+  display: none;
+}
+
+div#page_selection_package td.unit_price {
+  display: none;
+}
+
+div#page_selection_package th.area.stx_normal_colspan {
+  display: none;
+}
+
+div#page_selection_package td.area.stx_normal_colspan {
+  display: none;
+}
+
+/* Remove Columns from Basket */
+
+div#page_cart_reservation td.unit_price {
+  display: none;
+}
+
+div#page_cart_reservation td.seat {
+  display: none;
+}
+
+div#page_cart_shoppingCart td.unit_price {
+  display: none;
+}
+
+div#page_cart_shoppingCart td.seat {
+  display: none;
+}
+
+/* Remove Columns from Summary */
+
+div#page_checkout_orderSummary td.unit_price {
+  display: none;
+}
+
+div#page_checkout_orderSummary td.seat {
+  display: none;
+}
+
+/* Remove See All button */
+
+.sc-cooIXK.stx-Catalog-seeAllButton.iuPCdo {
+  display: none;
+}
+
+/* Remove Preference Column From Table */
+
+td.area.stx_normal_colspan {
+  display: none;
+}
+
+th.area.stx_normal_colspan {
+  display: none;
+}
+
+/* Remove Grey Box for Logo */
+
+.match_logo_wrapper {
+  display: none;
+}
+
+/* ***** CSS SODEXO SECUTIX RWC ***** */
+
+/* ////////////////////////*/
+/* ** 1. Landing Page  ** */
+/* //////////////////////*/
+
+
+
+
+/* Womens Rugby World Cup */
+#secondary_content_container,
+#secondary_content_container .title_container{
+  text-align: center;
+}
+#secondary_content_payment_modes #collapsiblePanel_secondary_content_payment_modes ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#secondary_content_payment_modes li .payment_method{
+  width: 5rem !important;
+  height: unset !important;
+}
+#secondary_content_payment_modes{
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#secondary_content_general_info,
+#secondary_content_general_info .flex_title{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#secondary_content_general_info ul {
+  list-style: none;
+  margin: 0px;
+}
+         
+#product_header .content_product_info .date:before{
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMnB4IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEycHgiIHg9IjBweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeT0iMHB4Ij4KPHBhdGggZD0iTTE5Ny40NTMsMjk1Ljk1MWgtNTguOTA1di01OC45MDRoNTguOTA1VjI5NS45NTF6IE0yODYuNDUyLDIzNy4wNDdoLTU4LjkwNHY1OC45MDRoNTguOTA0VjIzNy4wNDd6ICAgTTM3NS40NTIsMjM3LjA0N2gtNTguOTA1djU4LjkwNGg1OC45MDVWMjM3LjA0N3ogTTE5Ny40NTMsMzIzLjA0N2gtNTguOTA1djU4LjkwNmg1OC45MDVWMzIzLjA0N3ogTTI4Ni40NTIsMzIzLjA0N2gtNTguOTA0ICB2NTguOTA2aDU4LjkwNFYzMjMuMDQ3eiBNMzc1LjQ1MSwzMjMuMDQ3aC01OC45MDR2NTguOTA2aDU4LjkwNFYzMjMuMDQ3eiBNMzk3LjM4OSwxMTguMTMxYzAsMTAuMDM1LTguMTM1LDE4LjE3MS0xOC4xNywxOC4xNzEgIHMtMTguMTcxLTguMTM2LTE4LjE3MS0xOC4xNzFWNzIuNDAyYzAtMTAuMDM0LDguMTM2LTE4LjE3LDE4LjE3MS0xOC4xN3MxOC4xNyw4LjEzNiwxOC4xNywxOC4xN1YxMTguMTMxeiBNMTUxLjg4OSw3Mi4zMiAgYzAtMTAuMDM1LTguMTM2LTE4LjE3MS0xOC4xNy0xOC4xNzFjLTEwLjAzNiwwLTE4LjE3MSw4LjEzNi0xOC4xNzEsMTguMTcxdjQ1LjcyOGMwLDEwLjAzNSw4LjEzNSwxOC4xNzEsMTguMTcxLDE4LjE3MSAgYzEwLjAzNCwwLDE4LjE3LTguMTM2LDE4LjE3LTE4LjE3MVY3Mi4zMnogTTQxOS4zNTIsOTguODUxdjE4LjYxNmMwLDIyLjEzLTE4LjAwNCw0MC4xMzQtNDAuMTMzLDQwLjEzNCAgYy0yMi4xMywwLTQwLjEzNC0xOC4wMDQtNDAuMTM0LTQwLjEzNFY5OC44NTFIMTczLjg1MnYxOC41MzNjMCwyMi4xMy0xOC4wMDQsNDAuMTM0LTQwLjEzMyw0MC4xMzQgIGMtMjIuMTMsMC00MC4xMzQtMTguMDA0LTQwLjEzNC00MC4xMzRWOTguODUxSDUwdjM1OWg0MTJ2LTM1OUg0MTkuMzUyeiBNNDIyLDQxNy44NTFIOTBWMTk1LjM4aDMzMlY0MTcuODUxeiIgZmlsbD0iI0JGMDA5MSIgaWQ9ImNhbGVuZGFyLTUtaWNvbiIvPgo8L3N2Zz4=');
+}
+#product_header .product_right_img .time:before{
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyBoZWlnaHQ9IjE3OTIiIHZpZXdCb3g9IjAgMCAxNzkyIDE3OTIiIHdpZHRoPSIxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xMDI0IDU0NHY0NDhxMCAxNC05IDIzdC0yMyA5aC0zMjBxLTE0IDAtMjMtOXQtOS0yM3YtNjRxMC0xNCA5LTIzdDIzLTloMjI0di0zNTJxMC0xNCA5LTIzdDIzLTloNjRxMTQgMCAyMyA5dDkgMjN6bTQxNiAzNTJxMC0xNDgtNzMtMjczdC0xOTgtMTk4LTI3My03My0yNzMgNzMtMTk4IDE5OC03MyAyNzMgNzMgMjczIDE5OCAxOTggMjczIDczIDI3My03MyAxOTgtMTk4IDczLTI3M3ptMjI0IDBxMCAyMDktMTAzIDM4NS41dC0yNzkuNSAyNzkuNS0zODUuNSAxMDMtMzg1LjUtMTAzLTI3OS41LTI3OS41LTEwMy0zODUuNSAxMDMtMzg1LjUgMjc5LjUtMjc5LjUgMzg1LjUtMTAzIDM4NS41IDEwMyAyNzkuNSAyNzkuNSAxMDMgMzg1LjV6IiBmaWxsPSIjQkYwMDkxIi8+PC9zdmc+');
+}
+#product_header .product_right_img .location::before{
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyBoZWlnaHQ9IjE3OTIiIHZpZXdCb3g9IjAgMCAyMDQ4IDE3OTIiIHdpZHRoPSIyMDQ4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0yMDIwIDExcTI4IDIwIDI4IDUzdjE0MDhxMCAyMC0xMSAzNnQtMjkgMjNsLTY0MCAyNTZxLTI0IDExLTQ4IDBsLTYxNi0yNDYtNjE2IDI0NnEtMTAgNS0yNCA1LTE5IDAtMzYtMTEtMjgtMjAtMjgtNTN2LTE0MDhxMC0yMCAxMS0zNnQyOS0yM2w2NDAtMjU2cTI0LTExIDQ4IDBsNjE2IDI0NiA2MTYtMjQ2cTMyLTEzIDYwIDZ6bS0xMjg0IDEzNXYxMjcwbDU3NiAyMzB2LTEyNzB6bS02MDggMjE3djEyNzBsNTQ0LTIxN3YtMTI3MHptMTc5MiAxMDY2di0xMjcwbC01NDQgMjE3djEyNzB6IiBmaWxsPSIjQkYwMDkxIi8+PC9zdmc+');
+}
+#performance_chooser #performance_container .perf_details .perf_info .match_round {
+  display: none;
+}
+@media screen and (min-width: 991px){
+  #secondary_content_container,
+  #secondary_content_container .title_container{
+    text-align: center;
+  }
+  #performance_chooser .performance_line_container .perf_details:after{
+    content: ' ';
+    width: 24px;
+    height: 24px;
+    top: -2px;
+    position: relative;
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMWVtIiBoZWlnaHQ9IjFlbSIgdmlld0JveD0iMCAwIDIwIDE0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpY29uLVNQQUdYIGljb25fbGFyZ2UtTHJTaUsiIGFyaWEtaGlkZGVuPSJ0cnVlIiBkYXRhLXRlc3RpZD0ic3ZnLWljb24iIGZvY3VzYWJsZT0iZmFsc2UiIHJvbGU9InByZXNlbnRhdGlvbiI+PHBhdGggZD0iTS41MDggNi40NnYxLjk3NkgxNC44NnYuNTcyTDkuODY4IDE0aDIuNjc4bDYuNTI2LTYuNTUyTDEyLjU0Ni44OTZIOS44NjhsNC45OTIgNC45OTJ2LjU3MkguNTA4WiIgZmlsbD0iI0JGMDA5MSI+PC9wYXRoPjwvc3ZnPg==');
+  }
+  #performance_chooser #performance_container .performances_group_container li.performance{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #performance_chooser #performance_container .perf_details .perf_info {
+    width: 35%;
+  }
+
+  #performance_chooser #performance_container .perf_details .perf_info .date_time {
+    width: 50%;
+  }
+
+  #performance_chooser #performance_container .perf_details .perf_info .venue_group_match {
+    width: 50%;
+  }
+        
+  #performance_chooser #performance_container .perf_details .teams{
+    width: 45%;
+  }
+  #performance_chooser #performance_container .perf_details .buttons_availability{
+    width: 20%;
+  }
+  #performance_chooser #performance_container .perf_details .perf_info .date_time {
+    text-wrap: nowrap;
+    min-width: 145px;
+  }
+}
+@media screen and (max-width: 990px){
+  #secondary_content_navigation.slide_right,
+  #secondary_content_navigation.slide_right .content_element .content,
+  #secondary_content_navigation.slide_right .content_element .content .account_info{
+    background-color: #fff !important;
+  }
+  #secondary_content_navigation.slide_right .item:FIRST-CHILD{
+    border-top: none !important;
+  }
+  #secondary_content_navigation.slide_right .account_info,
+  #secondary_content_navigation.slide_right .menu_product_category,
+  #secondary_content_navigation.slide_right .item.item_link a:before {
+    display: none !important;
+  }
+  #secondary_content_navigation.slide_right .close-btn-wrapper{
+    top: 0;
+    position: absolute;
+    right: 0;
+  }
+  #secondary_content_navigation.slide_right #close-dialog-button{
+    background-color: transparent !important;
+  }
+  #secondary_content_navigation.slide_right #close-dialog-button .close-dialog-icon{
+    filter: unset !important;
+    height: 50px;
+    width: 50px;
+    background-size: 30px 30px;
+  }
+  #secondary_content_navigation.slide_right .content_element{
+    height: 99vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #secondary_content_navigation.slide_right .item.item_link a {
+    text-transform: uppercase !important;
+    border-bottom: none !important;
+  }
+  body.rwd .button a span{
+    color: #fff;
+    font-size: larger;
+  }
+  #secondary_content_navigation.slide_right .menu_experience_vouchers,
+  #secondary_content_navigation.slide_right .menu_client_account,
+  #secondary_content_navigation.slide_right #menu_first_level_tickets .openable.open,
+  #secondary_content_navigation.slide_right #menu_first_level_profile .openable.open{
+    display: none;
+  }
+  #secondary_content_navigation.slide_right .button.tickets_menu_logout .text{
+    color: #fff !important;
+  }
+  #secondary_content_navigation.slide_right ul li a{
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 15px !important;
+    margin-top: 20px;
+    padding-left: 0 !important;
+  }
+  #secondary_content_navigation.slide_right .button.tickets_menu_logout{
+    float: none !important;
+    padding-right: 0 !important;
+  }
+  #secondary_content_navigation.slide_right .button.tickets_menu_logout a{
+    margin-top: 20px !important;
+  }
+}         
+/* Remove Details File Summary */
+
+div#page_account_file td.seat {
+    display: none;
+}
+
+div#page_account_file td.unit_price {
+    display: none;
+}
+
+div#page_account_file tr.subtotal {
+    display: none;
+}
+
+
+/* Remove Basket Summary */
+
+p.semantic-no-styling-no-display.cart_content {
+    display: none !important;
+}
+
+/* Remove Tickets Amount */
+
+div#page_cart_shoppingCart .event_header {
+    display: none;
+}
+
+div#page_cart_reservation .widget_SPORTING_EVENT {
+    display: none;
+}
+
+/* Remove Package Amount */
+
+.reservation_selected_quantity {
+    display: none;
+}
+
+/* Remove Package Line Info */
+
+.package_line_info {
+    display: none;
+}
+
+/* Remove Package Line Content */
+
+.total_package_content {
+    display: none;
+}
+
+/* Remove Table Columns */
+
+div#page_selection_package th.subtotal {
+    display: none;
+}
+
+div#page_selection_package td.subtotal {
+    display: none;
+}
+
+div#page_selection_package th.unit_price {
+    display: none;
+}
+
+div#page_selection_package td.unit_price {
+    display: none;
+}
+
+div#page_selection_package th.area.stx_normal_colspan {
+    display: none;
+}
+
+div#page_selection_package td.area.stx_normal_colspan {
+    display: none;
+}
+
+/* Remove Columns from Basket */
+
+div#page_cart_reservation td.unit_price {
+    display: none;
+}
+
+div#page_cart_reservation td.seat {
+    display: none;
+}
+
+div#page_cart_shoppingCart td.unit_price {
+    display: none;
+}
+
+div#page_cart_shoppingCart td.seat {
+    display: none;
+}
+
+/* Remove Columns from Summary */
+
+div#page_checkout_orderSummary td.unit_price {
+    display: none;
+}
+
+div#page_checkout_orderSummary td.seat {
+    display: none;
+}
+
+/* Remove See All button */
+
+.sc-cooIXK.stx-Catalog-seeAllButton.iuPCdo {
+    display: none;
+}
+
+/* Remove Delivery Date */
+
+p.semantic-no-styling.label_value.delivery_mode_delay.shipment_mode_HANDED_POSTPONED {
+    display: none;
+}         
+         
