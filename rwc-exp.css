@@ -485,7 +485,7 @@ background-color: #bf0091;
 }
 
 #page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .round_kind {
-  display: block;
+  display: none;
   text-align: center;
 }
 
