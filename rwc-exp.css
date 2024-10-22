@@ -860,18 +860,31 @@ a:visited {
 /* ** 13. Other ** */
 /* //////////////////////////*/
 
-/* Remove vs */
+/* Remove vs and add & on the Product list page */
 
+p#teams_M2 span.team.separator,
+p#teams_M5 span.team.separator,
+p#teams_M7 span.team.separator,
+p#teams_M11 span.team.separator,
+p#teams_M13 span.team.separator,
+p#teams_M17 span.team.separator,
 p#teams_Final span.team.separator {
   visibility: hidden;
 }
 
+p#teams_M2 span.team.separator:after,
+p#teams_M5 span.team.separator:after,
+p#teams_M7 span.team.separator:after,
+p#teams_M11 span.team.separator:after,
+p#teams_M13 span.team.separator:after,
+p#teams_M17 span.team.separator:after,
 p#teams_Final span.team.separator:after {
   position: relative;
   content: "&";
   visibility: visible;
   left: -5px;
 }
+
 
 /* Remove season */
 
