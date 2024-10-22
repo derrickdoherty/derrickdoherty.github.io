@@ -502,6 +502,10 @@ display: block;
   border: none;
 }
 
+#page_selection_eventSeat .performance_selector {
+  display: none;
+}
+
 #page_selection_eventSeat #collapsiblePanel_main_content_seat_selection {
   border: 1px solid #e6e6e6;
 }
