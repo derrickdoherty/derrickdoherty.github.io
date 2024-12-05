@@ -73,12 +73,12 @@
 
 body {
   font-size: var(--body-font-size);
-  font-family: "DM Sans", sans-serif !important;
+  font-family: "DM Sans", sans-serif;
   font-weight: 400;
 }
 
 h2 {
-  font-family: rwc;
+  font-family: "DM Sans", sans-serif;
 }
 
 h3 {
