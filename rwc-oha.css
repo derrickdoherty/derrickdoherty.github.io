@@ -77,6 +77,10 @@ body {
   font-weight: 400;
 }
 
+h2 {
+  font-family: rwc;
+}
+
 h3 {
   font-size: 1.3rem;
   font-weight: bold;
