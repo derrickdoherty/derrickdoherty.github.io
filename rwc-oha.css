@@ -454,11 +454,23 @@ background-color: #bf0091;
   max-width: 50px;
 }
 
-
 #page_selection_eventDate .performance_SPORTING_EVENT .team .name {
   font-size: 16px;
   line-height: 16px;
 }
+
+/** change 'vs' to 'v' for the default separator for matches **/
+#page_selection_eventDate .performance_SPORTING_EVENT span.team.separator {
+  visibility: hidden;
+}
+
+#page_selection_eventDate .performance_SPORTING_EVENT span.team.separator:after {
+  position: relative;
+  content: "v";
+  visibility: visible;
+  left: -5px;
+}
+
 
 
 /** change "vs" to "&" for Bronze Final & Final match **/
