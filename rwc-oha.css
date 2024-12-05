@@ -73,7 +73,7 @@
 
 body {
   font-size: var(--body-font-size);
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans", sans-serif !important;
   font-weight: 400;
 }
 
