@@ -590,7 +590,10 @@ display: block;
 }
 
 
+
+/********************/
 /** ACCOUNT PAGES  **/
+/********************/
 
 #page_account_tickets .product_right_img {
   background-color: #F6F6F6;
@@ -627,12 +630,22 @@ color: black !important;
 font-weight: bold;
 }
 
+/** Set the menu border **/
 #page_account_home #secondary_content_navigation,
 #page_account_tickets #secondary_content_navigation,
 #page_account_files #secondary_content_navigation,
 #page_account_file #secondary_content_navigation,
 #page_account_password #secondary_content_navigation,
 #page_account_editPersonalDetails #secondary_content_navigation {
+  border: 1px solid var(--primary-colour);
+}
+
+#page_account_home #secondary_content_navigation ul li,
+#page_account_tickets #secondary_content_navigation ul li,
+#page_account_files #secondary_content_navigation ul li,
+#page_account_file #secondary_content_navigation ul li,
+#page_account_password #secondary_content_navigation ul li,
+#page_account_editPersonalDetails #secondary_content_navigation ul li {
   border: 1px solid var(--primary-colour);
 }
 
