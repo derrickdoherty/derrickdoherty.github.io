@@ -756,7 +756,7 @@ font-weight: bold;
 }
 
 /** remove message area from the Account Home page **/
-#page_account_home #main_content_account_dashboard [
+#page_account_home #main_content_account_dashboard {
   display: none;
 }
 
