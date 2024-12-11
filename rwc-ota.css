@@ -1,5 +1,6 @@
 :root {
   --body-font-size: 16px;
+  --primary-colour: #bf0091; /* pink */
 }
 
 @font-face {
@@ -75,6 +76,10 @@ body {
   font-size: var(--body-font-size);
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
+}
+
+h2 {
+  font-family: "DM Sans", sans-serif;
 }
 
 h3 {
@@ -454,10 +459,35 @@ background-color: #bf0091;
   max-width: 50px;
 }
 
-
 #page_selection_eventDate .performance_SPORTING_EVENT .team .name {
   font-size: 16px;
   line-height: 16px;
+}
+
+/** change 'vs' to 'v' for the default separator for matches **/
+#page_selection_eventDate .performance_SPORTING_EVENT span.team.separator {
+  visibility: hidden;
+}
+
+#page_selection_eventDate .performance_SPORTING_EVENT span.team.separator:after {
+  position: relative;
+  content: "v";
+  visibility: visible;
+  left: -5px;
+}
+
+/* make double headers use '&' instead of 'v' */
+#page_selection_eventDate .performance_SPORTING_EVENT p#teams_M2 span.team.separator:after,
+#page_selection_eventDate .performance_SPORTING_EVENT p#teams_M5 span.team.separator:after,
+#page_selection_eventDate .performance_SPORTING_EVENT p#teams_M7 span.team.separator:after,
+#page_selection_eventDate .performance_SPORTING_EVENT p#teams_M11 span.team.separator:after,
+#page_selection_eventDate .performance_SPORTING_EVENT p#teams_M13 span.team.separator:after,
+#page_selection_eventDate .performance_SPORTING_EVENT p#teams_M17 span.team.separator:after
+{
+  position: relative;
+  content: "&";
+  visibility: visible;
+  left: -5px;
 }
 
 
@@ -560,7 +590,10 @@ display: block;
 }
 
 
+
+/********************/
 /** ACCOUNT PAGES  **/
+/********************/
 
 #page_account_tickets .product_right_img {
   background-color: #F6F6F6;
@@ -573,6 +606,11 @@ display: block;
 }
 
 #page_account_tickets .print_options {
+  display: none;
+}
+
+/** ACCOUNT HOME PAGE **/
+#page_account_home #main_content_account_dashboard .message info {
   display: none;
 }
 
@@ -592,8 +630,33 @@ color: black !important;
 font-weight: bold;
 }
 
-#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #content #secondary_content_navigation .content_element .content .tickets_menu_logout .text {
-/*color: #BF0091; */
+/** Set the menu border **/
+#page_account_home #secondary_content_navigation,
+#page_account_tickets #secondary_content_navigation,
+#page_account_files #secondary_content_navigation,
+#page_account_file #secondary_content_navigation,
+#page_account_password #secondary_content_navigation,
+#page_account_editPersonalDetails #secondary_content_navigation {
+  border: 1px solid var(--primary-colour);
+}
+
+#page_account_home #secondary_content_navigation .content>ul>li,
+#page_account_tickets #secondary_content_navigation .content>ul>li,
+#page_account_files #secondary_content_navigation .content>ul>li,
+#page_account_file #secondary_content_navigation .content>ul>li,
+#page_account_password #secondary_content_navigation .content>ul>li,
+#page_account_editPersonalDetails #secondary_content_navigation .content>ul>li {
+  border-top: 1px solid var(--primary-colour) !important;
+}
+
+/** hide menu items on the account sidebar menu **/
+#page_account_home #secondary_content_navigation li.menu_experience_vouchers,
+#page_account_tickets #secondary_content_navigation li.menu_experience_vouchers,
+#page_account_files #secondary_content_navigation li.menu_experience_vouchers,
+#page_account_file #secondary_content_navigation li.menu_experience_vouchers,
+#page_account_password #secondary_content_navigation li.menu_experience_vouchers,
+#page_account_editPersonalDetails #secondary_content_navigation li.menu_experience_vouchers {
+  display:none;
 }
 
 #page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, #secondary_content_navigation .content_element > .content {
@@ -692,8 +755,9 @@ font-weight: bold;
   margin: 0px!important;
 }
 
-#page_account_home,#page_account_tickets,#page_account_files,#page_account_file,#page_account_editPersonalDetails, .menu_experience_vouchers {
-  border: none!important;
+/** remove message area from the Account Home page **/
+#page_account_home #main_content_account_dashboard {
+  display: none;
 }
 
 #page_account_tickets #ticket_filter_form {
@@ -860,18 +924,7 @@ a:visited {
 /* ** 13. Other ** */
 /* //////////////////////////*/
 
-/* Remove vs */
 
-p#teams_Final span.team.separator {
-  visibility: hidden;
-}
-
-p#teams_Final span.team.separator:after {
-  position: relative;
-  content: "&";
-  visibility: visible;
-  left: -5px;
-}
 
 /* Remove season */
 
@@ -1019,18 +1072,6 @@ th.area.stx_normal_colspan {
   display: none;
 }         
 
-/* Remove vs */
-
-p#teams_Final span.team.separator {
-  visibility: hidden;
-}
-
-p#teams_Final span.team.separator:after {
-  position: relative;
-  content: "&";
-  visibility: visible;
-  left: -5px;
-}
 
 /* Remove season */
 
