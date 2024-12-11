@@ -755,6 +755,10 @@ font-weight: bold;
   margin: 0px!important;
 }
 
+/** remove message area from the Account Home page **/
+#page_account_home #main_content_account_dashboard [
+  display: none;
+}
 
 #page_account_tickets #ticket_filter_form {
   display: none;
