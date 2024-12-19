@@ -1029,6 +1029,10 @@ div#page_selection_package td.area.stx_normal_colspan {
 
 /* Remove Columns from Basket */
 
+div#page_cart_shoppingCart .seat_category_section .widget_SPORTING_EVENT {
+    display: none;
+}
+
 div#page_cart_reservation td.unit_price {
   display: none;
 }
@@ -1405,10 +1409,6 @@ p.semantic-no-styling-no-display.cart_content {
 }
 
 /* Remove Tickets Amount */
-
-div#page_cart_shoppingCart .event_header {
-    display: none;
-}
 
 div#page_cart_reservation .widget_SPORTING_EVENT {
     display: none;
