@@ -1001,10 +1001,13 @@ div#page_checkout_orderSummary td.seat {
   display: none;
 }
 
+
+#page_cart_shoppingCart .seat_category_section .widget_SPORTING_EVENT,
 #page_checkout_orderSummary .seat_category_section .widget_SPORTING_EVENT {
-  display:none;
+  display: none;
 }
 
+#page_cart_shoppingCart .seat_category_section .event_header,
 #page_checkout_orderSummary .seat_category_section .event_header {
   font-size: var(--body-font-size);
 }
@@ -1358,10 +1361,6 @@ p.semantic-no-styling-no-display.cart_content {
 }
 
 /* Remove Tickets Amount */
-
-div#page_cart_shoppingCart .event_header {
-    display: none;
-}
 
 div#page_cart_reservation .widget_SPORTING_EVENT {
     display: none;
