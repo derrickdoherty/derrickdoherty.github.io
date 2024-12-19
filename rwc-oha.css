@@ -607,6 +607,11 @@ display: block;
 /** ACCOUNT PAGES  **/
 /********************/
 
+/** Account Login / Register **/
+#page_account_login .groupBtnRegisterAndGuestLogin {
+  display: none;
+}
+
 #page_account_tickets .product_right_img {
   background-color: #F6F6F6;
   border: none;
