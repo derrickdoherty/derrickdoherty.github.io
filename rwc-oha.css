@@ -560,8 +560,9 @@ display: block;
 
 
 
-
+/********************/
 /** CHECKOUT PAGES **/
+/********************/
 #page_cart_reservation .performance_SPORTING_EVENT .team .name {
   font-size: var(--body-font-size);
 }
@@ -591,6 +592,13 @@ display: block;
 #page_checkout_payment #main_content_payment_saved_cards .content_title .title {
   background: transparent;
   padding-top: 30%;
+}
+
+/** Checkout: Buyer page **/
+
+/** Hide the "Create a Structure Contact" link **/
+#page_checkout_buyer #newStructureButton {
+  display:none;
 }
 
 
