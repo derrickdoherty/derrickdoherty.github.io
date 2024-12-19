@@ -504,6 +504,10 @@ background-color: #bf0091;
   font-size: 30px;
 }
 
+/** Hide the calendar **/
+#page_selection_eventSeat .performance_selector {
+  display: none;
+}
 
 
 #page_selection_eventSeat .product_right_img.product_SPORTING_EVENT .subtitle {
