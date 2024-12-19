@@ -1027,11 +1027,21 @@ div#page_selection_package td.area.stx_normal_colspan {
 }
 
 
-/* Remove Columns from Basket */
-
-div#page_cart_shoppingCart .seat_category_section .widget_SPORTING_EVENT {
-    display: none;
+/********************/
+/** Checkout pages **/
+/********************/
+#page_cart_shoppingCart .seat_category_section .widget_SPORTING_EVENT,
+#page_checkout_orderSummary .seat_category_section .widget_SPORTING_EVENT {
+  display:none;
 }
+
+#page_cart_shoppingCart .seat_category_section .event_header,
+#page_checkout_orderSummary .seat_category_section .event_header {
+  font-size: var(--body-font-size);
+}
+
+
+/* Remove Columns from Basket */
 
 div#page_cart_reservation td.unit_price {
   display: none;
@@ -1064,13 +1074,6 @@ div#page_checkout_orderSummary td.seat {
   display: none;
 }
 
-#page_checkout_orderSummary .seat_category_section .widget_SPORTING_EVENT {
-  display:none;
-}
-
-#page_checkout_orderSummary .seat_category_section .event_header {
-  font-size: var(--body-font-size);
-}
 
 #page_checkout_orderSummary #shipment_fee_ticket {
   display: none;
