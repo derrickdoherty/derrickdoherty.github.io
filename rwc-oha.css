@@ -598,7 +598,7 @@ display: block;
 
 /** Hide the "Create a Structure Contact" link **/
 #page_checkout_buyer #newStructureButton {
-  display:none;
+  /*display:none;*/
 }
 
 
