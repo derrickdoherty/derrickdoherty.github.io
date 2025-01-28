@@ -314,13 +314,13 @@ background-color: #bf0091;
   background: transparent;
 }
 
-/* Hide the stadium space location from the header*/
+/* Hide the stadium space location from the header */
 #page_selection_eventSeat .product_description_header .location_container .space {
   display: none;
 }
 
-/* Hide the comma that is generated when stadium space is show in location in the header*/
-#page_selection_eventDate .product_description_header .location_container .space+.site:before {
+/* Hide the comma that is generated when stadium space is show in location in the header */
+#page_selection_eventSeat .product_description_header .location_container .space+.site:before {
   content: "";
 }
          
