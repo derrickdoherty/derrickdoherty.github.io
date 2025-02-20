@@ -555,7 +555,7 @@ display: block;
 }
 
 @media screen and (min-width: 991px) {
-  #page_checkout_orderSummary .#main_content_summary_terms_and_conditions .agreements .accept_conditions label {
+  #page_checkout_orderSummary #main_content_summary_terms_and_conditions .agreements .accept_conditions label {
     width: 100%;
   }
 }
